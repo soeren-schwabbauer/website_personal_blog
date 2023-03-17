@@ -1,8 +1,6 @@
 ---
 title: "Bikepacking"
 listing: bikepacking
-layout: list-grid
-
 ---
 
 ```{r setup, include=FALSE}

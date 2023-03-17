@@ -13,7 +13,7 @@
       "title": "Bikepacking",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-17T09:55:32+01:00"
+      "last_modified": "2023-03-17T10:38:49+01:00"
     },
     {
       "path": "dreams.html",
@@ -26,8 +26,8 @@
       "path": "index.html",
       "title": "My Blog",
       "author": [],
-      "contents": "\r\n\r\nHier ein paar Ideen\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-17T09:55:58+01:00"
+      "contents": "\r\nHier ein paar Ideen\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-03-17T10:33:17+01:00"
     },
     {
       "path": "misc.html",
@@ -35,7 +35,7 @@
       "description": "Naja, so sonstiges soll es hier gar nicht sein. Hier finden sich Einträge über Sportromantik, heiße Tourentips (nicht alle müssen nachgefahren werden ;) und feine Radlstraßen aus aller Länder.",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-17T09:56:13+01:00"
+      "last_modified": "2023-03-17T10:50:58+01:00"
     }
   ],
   "collections": ["posts/posts.json", "bikepacking/bikepacking.json", "dreams/dreams.json", "misc/misc.json"]

@@ -3,6 +3,7 @@ title: "Eskaparten"
 description: |
   Rumänien. Ein Land, das mich auch noch nach der Reise wahnsinnig fasziniert. Die Vielfalt Europas spürt man dort siche mehr als irgendwo anders. Es folgen knapp 2000 Kilometer Reisebericht und 10 Magische Tage, wie sie abwechslungsreicher kaum sein könnten. Auf der Flucht vor Bären und Hunden und durch malerische Landschaften.
 date: 2022-06-25
+preview: /images/header.JPG
 output:
   distill::distill_article:
     self_contained: false
