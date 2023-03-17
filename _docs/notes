@@ -1,0 +1,6 @@
+
+to create a new category:
+
+distill::create_post(collection = "bikepacking", title = "Race Around Rwanda")
+
+then add the category to the _site.yml file

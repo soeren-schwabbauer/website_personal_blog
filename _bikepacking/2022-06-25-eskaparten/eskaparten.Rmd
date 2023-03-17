@@ -1,0 +1,155 @@
+---
+title: "Eskaparten"
+description: |
+  Rumänien. Ein Land, das mich auch noch nach der Reise wahnsinnig fasziniert. Die Vielfalt Europas spürt man dort siche mehr als irgendwo anders. Es folgen knapp 2000 Kilometer Reisebericht und 10 Magische Tage, wie sie abwechslungsreicher kaum sein könnten. Auf der Flucht vor Bären und Hunden und durch malerische Landschaften.
+date: 2022-06-25
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+
+## Die Idee
+Nachdem es Anfang des Jahres in den Westen Europas ging, wollte ich dieses Mal mal eine andere Kultur kennenlernen. Auf der Karte halte ich bei meiner Routenplanung meist Ausschau nach kurvigen Straßen und Bergen. Da ich aber auch schon den ein oder anderen Alpenpass gefahren bin, war ich auf der Suche nach etwas Neuem. Da kamen die Kaparten im Grunde wie gelegen. Die Transalpina zählt ja ohnehin zu einer der spektakuläreren Straßen und da es mir sicher auch in 20 Jahren noch zu weit ist dort mit dem Auto hinzufahren muss das Radl herhalten. 
+
+## Reisetagebuch
+Was eine Reise. Aus dem feinen Wien über Ungarn bis knapp vor die Ukrainische Grenze. Vor Hunden geflüchtet, über die Landschaft gestaunt, verlassene Straßen erkurbelt und so viele Langos, wie noch nie gefuttert.
+
+### Tag 1: Euro Velo 6 Safari
+
+
+- 20 h Flixbusfaht (Amsterdam - Wien) gut überstanden
+
+- Kaum auf m Donauradweg ging der Wahnsinn los - 1. Platten
+- In Bratislvava neuer Mantel. Beim Manteldraufziehen 3 Heber zerbrochen & 2 Schläuche zerstört
+- km 130: Kurz vor der Pause nochmal n Platten. Gerade noch so in die Pizzeria gerollt. Auf der Pizza dann genau das, was mich in der letzten Wochen 2 mal die Kloschüssel hat küssen lassen. - Aber alles gut gegeangen. - restliche Pizza eingetuppert & weiter gings, bevor einer von uns beiden noch mit der Kellnerin verheiratet wird 😬
+- km 135: Schlauch wieder platt, Beim Aufziehen wieder eingeklemmt & Flicken hat nicht gehalten -- - 2 Schläuche
+- km 200: Snakebite auf Eurovelo 6 Safari. Bei dem Radweg musste es ja dazu kommen.
+---- 7 Schläuche und 8 mal Mantel rauf & runter. Das alles bei 38 Grad im Schatten (welcher Schatten ??)…
+- Da die Pechsträne nur Moritz getroffen, hat mich zur Sicherheit noch ne Wespe gestochen. Es gibt ja richtig gute Bikepacking Tage & gute Bikepacking Tage. Dieser hier war in der Tat ziemlich beschissen.
+
+- Alles Flach, teils nicht oder schlecht asphaltiert. Am Ende noch Angst gehabt, dass der Supermarkt zu macht, daher lieber in eine Bäckerei eingekehrt (FKT im Gyros mampfen: 2 minuten 30 sekunden 🥹)
+- Kostenlose Nacht auf m Campingplatz (ausgeborgt 😅) allerdings Sachen vor dem Fuchs versteckt & von Mücken zerstochen wurden. Luftmatratze im Dunkeln natürlich auf ein Ameisenloch gelegt
+
+- Feine Mittagspause mit Eis & Cola
+- und merke: es ist egal, welche Sprache du sprichst. Dankbarkeit & ein Lächeln versteht jeder 🥰
+
+### Tag 2: Pink
+
+ist jetzt die Farbe der Hoffnung… zumindest für diese Tour. Für die der Wettergötter hats jedenfalls gereicht
+
+- gemütlich gefrühstückt in einen netten Kaffee (Espresso hier erstaunlich gut)
+- erster Hügel vor Budapest
+- festgestellt das der Flaschenhalter gebrochen ist. Ich denke das sagt einiges über den Zustand der Wege gestern aus… Neuer Halter ist Pink. Dem Wettergott hats schneinbar gefallen. Rückenwind und ein vorangegangener Schauer für angenehme Temperaturen 😍 (trotzdem bisschen nass geworden)
+- Budapest schnell wieder verlassen. Parlamentsgebäude sehr chick. Sicher lohnenswert. Nicht aber zum Radfahren. Die Hubbel, Radwege & Straßenführung absolut irre
+- In Gyögyös einen Gyros, Pommes & Baklavar verspeist
+👉 erster Berg: sehr angenehm zum Fahren. Höchenstens eine Ortserkundung & kein Umweg
+- vor Eger nochmal Eistee gekauft. Es ist schon spannend. Die meisten hier sprechen kein Wort Englisch, ich kein Wort Ungarisch, aber trotzdem kommt man irgendwie zu recht.
+👉 2. Anstieg: alles auf m großen Blatt gefahren so flach war das 😅 Ewig durch den Wald gekurvt & irgendwann wieder runter. Landschaftlich echt schön, aber da muss man echt nicht 2 Mal hin 🥲 Fototechnisch wohl nur mit ner Drohnenaufnahme richtig gut zum rüberbringen
+- Miskolc durchaus spannend. Erst alte Hochblock Hochhäuser ein Reih & Glied, dann ein winderschöner Stadtkern. Beim Abendessen noch einen Schweden kennengelernt, der hier beim Kraftwerkbau mithilft.
+
+🌭🌮🌯: 2x Gyros, 1x Subway Sandwich, 1x Yufka & vermutlich 5 Liter Cola + Eistee
+
+### Tag 3: manch einer kommt mit Jesus besser durch den Tag
+
+- Ich bevorzuge 32mm Mäntel, Tubeless & Carbonrahmen für die nächsten Tage. Sollte Jesus allerdings die Hunde besänftigen wäre ich bereit mein Pfefferspray einzutauschen
+
+- komplett flach (Alternativcaption: Bikepacking time trial) daher ein bisschen später gestartet. AirBnb war aber auch verdammt bequem gewesen 🫣
+- rausgefunden, dass ein Hand anheben zum Grüßen besser ist, als ein Nicken und Lächeln
+- schon krass. An einer Stelle wars in die nächste Stadt einfach weiter als in die Ukraine 🥶. Krieg ist echt ne riesige Scheiße
+- 3x Hundebegegnung auf 40 km Landstraße. Uff. 3 mal voll in die Pedale getreten. 45 km/h hat gereicht. Nach 235 km aber alles andere als witzig. Einmal eine 4er Gruppe abgehängt.
+- Mit einem Romänen in dem Bar kurz auf Französisch unterhalten. Wirklich verrückt
+
+### Tag 4: dadada
+
+Falls es jemand mal hier her verschlägt: Der Startcampingatz ist durchaus gemütlich
+
+🚲: Rollt & Rollt & Rollt. Am Ende den Aeroaufsatz sehr vermisst. Finger sind doch etwas schwach. Pfefferspray ist nach oben gewandert -> schneller griffbereit.
+
+🏔🏞: An Traum. Anstiege nie mehr als 7% (laut Schild), kurvig, schön lang & voll mit Schnickschnack, wie Statuen usw. Abfahrt auch gewaltig. Häuser waren meist absolut fein rausgeputzt und die Vorgärten nicht von akkuraten deutschen unterscheidbar. Gegen Ende, dann doch einige alleinstehnde, durchaus runtergekommene gesehen. Sonst ultra viele Kirchen. Nett sind die kleinen Supermärkte, die den Eis(tee) & Pombärennachschub sichern.
+Von Geflüchteten kriegt man weniger mit, als an den Bahnhöfen bei uns. Einmal ein Hinweisschild gesehen, das wars.
+
+🐕: Bis Mittag kein Problem. Denen war vermutlich zu heiß zum aufstehen. Die meisten sind eh angeleint, deshalb aber nicht leiser. Dann noch einmal einen startenden Hund am Ende abgewehrt. Nach 220km + die letzten Tage war mir nicht nach nem Sprint.
+
+Morgens auf dem Campingplatz:
+Ich ohne Rad: Hund 🤝ich
+Ich steige auf: Hund bellt
+Ich steige ab: Hund 🤝ich
+usw…
+
+🌤: Sonnig, nachmittags bewölkt, 2. Abfahrt noch nass.
+
+
+### Tag 5: kurzer Fahrt, langer Tag & müde Beine
+
+Man kann sich auch mit 100 km einen Tag lang beschäftigen 🙈
+
+🏞 Mal sehr steil, dann wieder weit verlaufen das Tal. Leicht bergab (insgesammt gut 150 km mit gestern), aber durchgehend Gegenwind. Aus lockeren 35 werden so schnell unentspannte 25. Naja. Hilft alles nix.
+Viele Brücken zu den Häusern auf der anderen Seite. Wer großen Wert auf TÜV Siegel legt, der sollte hier nicht herziehen 😅
+An den Straßenrändern stets Wegmarkierungen im peniblen Kilometerschritten.
+
+🇪🇺 Überall (auch schon die letzten Tage) immer wieder Europaflaggen. Da scheint man hier stolz drauf zu sein.
+
+🍔 So Imbissbuden (wie in Ungarn) gibt es hier kaum. Supermärkte haben zwar immer Stühle draußen, bieten aber keine Mahlzeiten an. Restaurants gibt es auch. Wenn man Pizza bestellt, kriegt man fast jedes Mal eine neue Variante. Viel (!!) Käse, Kaum Käse, Belag auf Käse, dicker oder dünner Teig. Alles dabei. Salatmengen werden in Grammangaben serviert.
+
+💸 Gefühlt alles ca. der Halbe Preis
+
+🛣 Absolut passabel. Schön geteert. Manchmal etwas ruppig. Einiges an Verkehr, dafür sind an stark befahrenen Straßen weniger Hunde unterwegs. Lieber bei einem Auto im Fahren den Seitenspiegel einklappen, als so einen Köter an der Wade 😌
+
+🌤 Hohe Luftfeuchtigkeit, am Ende leichter Regen
+
+
+### Tag 6: Wanderung in Durau
+
+Wunderschöne Landschaft, ein Wasserfall, vieeeeeeele Treppen & eine Unwetterwarnung, die alle IPhones die sich in diesem Gebiet befanden mehrmals hat auf aufschreien lassen.
+
+
+### Tag 7: Bär oder Hund?
+
+🕑 Locker losgerollt. Nach 1km wieder ein Hund an den Versen. Die Waden haben dem Kopf schnell klargemacht, dass bergauf nicht gesprintet wird -> 🌶💨. Danach wirklich locker losgerollt, einsam durch die Nebelschwarten. Mal drüber, mal drunter, mal mitten hindurch
+🕔 Let’s go gravel! Ein bisschen matschige OffRoad Action. Gerade oben angekommen fängts zu regnen an.
+🕗 Nach Regen kommt Sonnenschein. Zusammen mit Pizza durchaus verkraftbar.
+🕙 Wieder überall Storchennester. In jedem Dorf bestimmt 4 Stück. Flach gut getreten, bis der Gegenwind kam. Dann wieder fieß wellig. Landschaftlich genial, endlich mal die Berge von außen betrachtet
+
+Alles dabei gewesen. Straße, Schotter, Hundeverfolgung, Gegenwind, Sonne, Regen, 35kmh im Flachen, wellig, flach, steil.
+
+Die ganze Zeit nur gedacht: Ach Karpaten, ihr wundersamen, faszinierenden & geheimnisvollen Berge, sie mir zugleich so vertraut vorkommen.
+
+
+### Tag 8: malerisch
+
+
+Erstmal dirch die Stadt, und dann gemächlich den Berg hoch. Nach km 50 oben w
+gewesen. Bergab dann recht schnell Stau & an sämtlichen Autos vorbeigedüst, die mich seit Stadtende überholt hatten.
+
+🏔📈 Genialer Anstieg im Wald. Noch nie so viele 👍 bekommen. Straße wurde schmaler und irgendwann gings auf Schotter… Also auf abenteuerlichen Untergrund. Noch ein paar 100hm zum Gipfel. Von dort aus weiter auf Wegen ähnlich zum Stubaier Höhenweg. Ca. 20 km Schiebend, tragend, ab und an auch fahrend vorangekämpt. Wenn dir eine gut ausgerüstete Wandergruppe entgegen kommt, du gerade dein Rad geschultert hast, dann kann der Tag nur gut werden 🥳
+
+🐑🐏 Gegen Ende eine riesige Herde Schafe, inkl. Hirten hnd Hirtenhunden gesehen. Genau, wie man sich das sso vorstellt. Die Hunde haben sich immerhin streicheln lassen 🤗
+
+Das ganze wirkte ein bisschen wie die Alpen, allerdings nicht so komerzialisiert. Eine Imbissbude, statt Restaurant, eine Seilbahn aus den 80er und alles eben ein bisschen gemütlicher.
+
+🌭 Der Langosstand nach der Strapaze war wirklich eine Rettung. Nicht, dass die Landschaft nicht schön war, aber die letzten 5 km waren nochmal unangenehm uneben.
+
+
+### Tag 9: Trans-irgendwas
+
+
+oh yeah 🥳 Dieses Fleckchen Erde ist so wunderbar. Warum passen wir eigentlich nicht besser drauf auf?
+⚠️ es folgen ein paar sehr heiße Kurven 👀
+
+Auflösung Gewinnspiel: Das war ein Hund. Ein seeeehr zotteliger, mitten im Wald. Hatte Autofahrer pantomimietend gefragt, was das ist. Er lachte und bellte zurück. (Postkarte kommt zeitnah) Heute kamen die richtigen Bären. Schon knuffig, solange sie einem nicht hinterherrennen 😅🐻
+Leider nur ein Video gemacht. Gab noch 4,5 weitere Sichtungen. Hab aber jedes Mal zugesehen, dass ich vom Fleck komm 🫣
+
+Morgens erstmal 5-6 Anstiege bekämpft. Jeder mit so 300hm.
+Irgendwann begann der (70km!!) Anstieg. Erst zum Staudamm, dann ein flaches Stück, nochmal durch den Wald und dann noch das hochalpine Stückchen. Der letzte Teil wohl das schönste Stück Straße, das ich je gefahren bin.
+Dann bergab laufen lassen und nich mit Rückenwind das letzte Stück gerollt. 60km einspurige Landstraße pübktlich zum LKW Feierabendverkehr. Uhlala. Ich bin jetzt glaub abgehärtet.
+Zack so schnell sind 270km rum 😅
+
+Am Ende noch ein Transcontinental racer getroffen. Ich dachte ich hab wenig dabei, aber der war echt wild (& und schon ordentlich fertig🥹)
+
+
+### Tag 10: Magen Darm & tschaukakao
+2 wirklich tolle Etappen wären noch gekommen. Am ersten Berg wenig Kraft gehabt, dann noch das Brunnenwasser probiert… Merke: Trinke das Wasser von Berg erst, wenn du seinen Gipfel siehst
+Heimreise gestaltet sich äußerst spannend, wenn man dort strandet, wos kaum Empfang gibt und kein Bus fährt.
+Naja. Das waren die Eskaparten 🤭
+Vielleicht komm ich nochmal wieder 🤗
