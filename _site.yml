@@ -13,8 +13,7 @@ navbar:
       href: dreams.html
     - text: "Misc"
       href: misc.html
-    - text: "About"
-      href: about.html
+
 collections:
   posts: 
     categories: true

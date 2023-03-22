@@ -4,6 +4,7 @@ description: |
   Ein Fahrradausflug nach Bella Italia zum Gardasee. Von Innsbruck aus, mit dem Ziel Innsbruck. 460 Kilometer, Gegenwind, Pizza vom Imbiss, Kälte und ein bequemes Bett unter Apfelbäumen.
 preview: /images/header.jpg
 date: 2022-09-23
+categories: Radlrunde
 output:
   distill::distill_article:
     self_contained: false

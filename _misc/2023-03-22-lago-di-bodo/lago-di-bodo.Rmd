@@ -1,0 +1,24 @@
+---
+title: "Lago di Bodo"
+description: |
+  Einmal rum um Deutschlands größten See. Im Trio pedalliert was das Zeug hält. Abschließen bleibt noch die Frage: Wisst ihr eigentlich, wie langsam das war?
+preview: /images/header.jpg
+date: 2023-03-19
+categories: Radlrunde
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: false
+---
+
+
+## Anreise
+Mit dem Zug von Innsbruck nach Bregenz.
+
+## Radlrunde
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8736921752"></div><script src="https://strava-embeds.com/embed.js"></script>
+
+
+## Abreise
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8741302364"></div><script src="https://strava-embeds.com/embed.js"></script>
+
