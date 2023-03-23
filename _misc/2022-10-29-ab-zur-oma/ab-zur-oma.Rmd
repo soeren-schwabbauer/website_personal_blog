@@ -1,0 +1,63 @@
+---
+title: "Ab zur Oma"
+description: |
+  Von Innsbruck nach Wilhelmshaven. Auf 1000 Kilometern quer durch Deutschland. Die letzten warmen Tage des Jahres 2022 noch einmal voll ausgenutzt.
+preview: /images/header.jpg
+categories: Radlrunde
+date: 2022-10-29
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+![](images/header.jpg)
+
+## Packliste
+Eine Oberrohrtasche, sonst nix
+
+## Radlbericht
+
+### Tag 1 - Innsbruck -> Bamberg
+Wo gehts heute noch hin? - Bamberg.
+Alles heute noch? - Jup, so der Plan
+Und wo bist gestartet? - Innsbruck
+Aber nicht heute oder? - Dochdoch
+Immer wieder amüsant diese Gespräche
+
+- bikepackingregel #534: Die Ampel istnur dannn wirklich rot, wenn die Polizei daneben steht
+- nominiere mich selbst für das Holz der Woche: Kette falsch aufgezogen und gedacht das Klappern kommt vom Wachs 🧘
+
+
+### Tag 2 - Bamberg -> Hameln
+- Ich glaub unspäktakulärer kann Landschaft nicht sein. Wenn die hupenden Autofahrer und grummeligen Renter nicht wären, wärs glatt langweilig 🤭
+- Wie gut, dass das Rennrad Scheibenbremsen hat & Krass was das Material hergibt. 300hm Abstieg auf 20 Kilometer abzubremsen war hart.
+
+
+### Tag 3 - Hameln -> Wilhelmshaven
+- Beine müde, Oma glücklich. Mission accomlished
+- Jetzt Kuchen, Eis, E-Bike fahren, Kuchen, Eis, usw...
+- Vieeeeel Rückenwind gehabt
+- Ganz mies über nen Strick geflogen. Von 30 auf 0 in so ner halben Sekunde. Zum Glück nix passiert. Ab jetzt nur noch langsam durch Baustellen 🚧⛓️🚧
+- Die Moral von der Geschicht? Deutschlands Radwege taugen nix
+
+
+## Meine Route
+```{r projects, echo=FALSE}
+library(leaflet)
+library(rgdal)
+
+track1 <- readOGR('abzuroma1.gpx', layer = "tracks", verbose = FALSE)
+track2 <- readOGR('abzuroma2.gpx', layer = "tracks", verbose = FALSE)
+track3 <- readOGR('abzuroma3.gpx', layer = "tracks", verbose = FALSE)
+
+leaflet() %>% addTiles() %>% 
+  
+  addPolylines(data=track1, color = "red") %>%
+  addPolylines(data=track2, color = "green") %>%
+  addPolylines(data=track3, color = "blue") %>%
+  
+  addTiles()  # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```

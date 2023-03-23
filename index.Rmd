@@ -1,12 +1,12 @@
 ---
-title: "My Blog"
+title: "Bienvenue"
+description: "scheint, als hättest du dich auf meinen Blog verirrt. Hier halte ich fest, was Strava irgendwann verschluckt und nicht zeigt: Bikepackingtouren, Träume und Projekte."
 output:
   distill::distill_article:
     css: "strapless.css"
 
 
 ---
-
 
 
 
