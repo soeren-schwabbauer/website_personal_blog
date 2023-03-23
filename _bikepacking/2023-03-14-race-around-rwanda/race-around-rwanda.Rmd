@@ -16,7 +16,36 @@ output:
 ## Die Route
 Die Route war vorgegeben. Ich habe sie hier eingebettet. Alle Rechte liegen bei den Veranstaltern des Race Around Rwanda. [Hier gehts zur Originalseite](http://racearoundrwanda.com/route/)
 
-<iframe src="https://ridewithgps.com/embeds?type=route&#038;id=39979502&#038;title=RaR2023%20-%20draft&#038;metricUnits=true&#038;sampleGraph=true" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+track1 <- readOGR('rar.gpx', layer = "tracks", verbose = FALSE)
+
+## get manual points
+points_info <- read.csv2(paste0(find_rstudio_root_file(), "/content/map_points.csv"))
+
+points_schlaf <- points_info %>% dplyr::filter(description == "Schlaf") %>%
+
+  st_as_sf( coords = c("lon", "lat"), crs = 4326)
+
+leaflet(width=2000) %>% 
+  
+  # add gpx tracks
+  addPolylines(data=track1, color = "red") %>%
+
+  # add special points
+  addMarkers(data = points, popup = ~ description) %>%
+  
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
 
 ## Equipment
 ![Vor der Abreise noch ein kleines Photoshoot vor heimischer Kulisse ](images/bike_small.png)
