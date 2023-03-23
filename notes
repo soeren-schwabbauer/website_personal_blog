@@ -1,12 +1,11 @@
 
 to create a new category:
 
-distill::create_post(collection = "bikepacking", title = "Race Around Rwanda")
 
 then add the category to the _site.yml file
 
 to create posts: 
-create_post("Eskaparten", collection = "bikepacking", date = "2022-06-25")
+distill::create_post("Eskaparten", collection = "bikepacking", date = "2022-06-25")
 
 
 add headerimage to a post: preview: /images/header.JPG
