@@ -15,7 +15,11 @@ library(slickR)
 
 Bikepacking. Was gibts schöneres als Radlfahren, Essen und unbekannte Gegenden erkunden Richtig: Alles auf einmal machen. 
 
+____
+
 # Race around Rwanda
+<p style="text-align: center;">`r fontawesome::fa("clock", height = "12px")` 05.02.2023 - `r fontawesome::fa("calendar-days", height = "12px")` 83 h - `r fontawesome::fa("flag-checkered", height = "12px")` Rwanda - `r fontawesome::fa("road", height = "12px")` 1.000 km - `r fontawesome::fa("mountain", height = "12px")` 17.500 hm </p>
+ 
 1000 Kilometer einmal um das Land der 1000 Hügel.  Ein self-supported Bikepacking Race, bei dem man nie alleine ist. 1000 Eindrücke und Geschichten. Hier kommen ein paar davon. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
 
 ```{r , echo=FALSE}
@@ -27,18 +31,19 @@ slickR(obj = path_rar , width = "95%") +
 
 ```
 
-<br>
-<br>
+____
 
 # Innsbruck - Athen. Ende der Storyline
+ <p style="text-align: center;">`r fontawesome::fa("clock", height = "12px")` 20.08.2022 - `r fontawesome::fa("calendar-days", height = "12px")` 9 Tage - `r fontawesome::fa("flag-checkered", height = "12px")` Innsbruck - Athen - `r fontawesome::fa("road", height = "12px")` 2.200 km - `r fontawesome::fa("mountain", height = "12px")` 22.000 hm </p>
+ 
 Von Innsbruck im Turbomodus nach Athen. Entlang der Adria auf der Suche nach dem besten Café Fredo Griechenlands.
 
 ![](images/bikepacking_athen/1.jpg)
-
-<br>
-<br>
+___
 
 # Eskarparten
+ <p style="text-align: center;">`r fontawesome::fa("clock", height = "12px")` 25.07.2022 - `r fontawesome::fa("calendar-days", height = "12px")` 10 Tage - `r fontawesome::fa("flag-checkered", height = "12px")` Kaparten - `r fontawesome::fa("road", height = "12px")` 1.800 km - `r fontawesome::fa("mountain", height = "12px")` 18.000 hm </p>
+
 In Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlose Weiten, viel Langos, Hunde und Bären. Eine Reise durch eine ganz andere Ecke Europas, wie sie seinesgleichen sucht. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
 
 ```{r , echo=FALSE}
@@ -46,14 +51,14 @@ In Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlo
 path_eskaparten <- list.files(path = paste0(find_rstudio_root_file(), "/images/bikepacking_eskaparten/"), full.names = TRUE)
                      
 slickR(obj = path_eskaparten , height = "95%") + 
-  settings(autoplay = TRUE)
+  settings(autoplay = F)
 
 ```
-
-<br>
-<br>
+___
 
 # Let's fiets to Amsterdam
+ <p style="text-align: center;">`r fontawesome::fa("clock", height = "12px")` 15.07.2022 - `r fontawesome::fa("calendar-days", height = "12px")` 9 Tage - `r fontawesome::fa("flag-checkered", height = "12px")` Innsbruck - Amsterdam - `r fontawesome::fa("road", height = "12px")` 1.270 km - `r fontawesome::fa("mountain", height = "12px")` 7.500 hm </p>
+
 Von Innsbruck ab nach Amsterdam. Entlang des Bodensees und durch den Schwarzwald weiter nach Freiburg. An den heißesten Tagen des Jahres durch Strasburg und weiter nach Luxemburg und Belgien. Dann noch gegen den Gegenwind an der Küste gekämpft und schon warn ma da.
 
 ```{r , echo=FALSE}
@@ -61,6 +66,6 @@ Von Innsbruck ab nach Amsterdam. Entlang des Bodensees und durch den Schwarzwald
 path_eskaparten <- list.files(path = paste0(find_rstudio_root_file(), "/images/bikepacking_amsterdam/"), full.names = TRUE)
                      
 slickR(obj = path_eskaparten , height = "95%") + 
-  settings(autoplay = TRUE)
+  settings(autoplay = F)
 
 ```
