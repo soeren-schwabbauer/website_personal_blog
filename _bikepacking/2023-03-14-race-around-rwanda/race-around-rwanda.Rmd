@@ -15,6 +15,7 @@ output:
 
 ## Die Route
 Die Route war vorgegeben. Ich habe sie hier eingebettet. Alle Rechte liegen bei den Veranstaltern des Race Around Rwanda. [Hier gehts zur Originalseite](http://racearoundrwanda.com/route/)
+
 ```{r projects, echo=FALSE}
 library(leaflet)
 library(sp)
@@ -91,8 +92,8 @@ Nach, naja... einer sehr kurzen Nacht, hab ich den Rest des furchtbaren Gravels 
 
 ___
  <p style="text-align: left;">`r fontawesome::fa("arrow-left", height = "12px")`
-  [zum neusten Beitrag](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
+  [ zum neusten Beitrag](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
     <span style = "float:right;"> 
-      [zum vorherigen Beitrag](https://soeren-schwabbauer.github.io/blog/bikepacking/2022-06-25-eskaparten/)`r fontawesome::fa("arrow-right", height = "12px")` 
+      [zum vorherigen Beitrag ](https://soeren-schwabbauer.github.io/blog/bikepacking/2022-06-25-eskaparten/)`r fontawesome::fa("arrow-right", height = "12px")` 
       
  </p>
