@@ -2,5 +2,6 @@
 title: "Ziele & Träume ..."
 site: distill::distill_website
 ---
-<p style="text-align: center;">`r fontawesome::fa("clock", height = "12px")` 25.07.2023 -           `r fontawesome::fa("calendar-days", height = "12px")` 10 Tage - `r fontawesome::fa("flag-checkered", height = "12px")` Kaparten </p>
- <p style="text-align: center;"> `r fontawesome::fa("road", height = "12px")` 1.800 km - `r fontawesome::fa("mountain", height = "12px")` 18.000 hm </p>
+
+
+Leider gerade zu sehr mit Träumen, Uni und Radlfahren beschäftigt, um hier etwas zu schreiben. 
