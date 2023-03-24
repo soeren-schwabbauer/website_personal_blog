@@ -27,11 +27,19 @@ slickR(obj = path_rar , width = "95%") +
 
 ```
 
-
+<br>
 <br>
 
 # Innsbruck - Athen. Ende der Storyline
 Von Innsbruck im Turbomodus nach Athen. Entlang der Adria auf der Suche nach dem besten Café Fredo Griechenlands.
+
+![](images/bikepacking_athen/1.jpg)
+
+<br>
+<br>
+
+# Eskarparten
+In Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlose Weiten, viel Langos, Hunde und Bären. Eine Reise durch eine ganz andere Ecke Europas, wie sie seinesgleichen sucht. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
 
 ```{r , echo=FALSE}
 
@@ -41,17 +49,6 @@ slickR(obj = path_eskaparten , height = "95%") +
   settings(autoplay = TRUE)
 
 ```
-
-
-
-<br>
-<br>
-
-# Eskarparten
-In Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlose Weiten, viel Langos, Hunde und Bären. Eine Reise durch eine ganz andere Ecke Europas, wie sie seinesgleichen sucht. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
-
-![](images/bikepacking_athen/acropolis.jpg)
-
 
 <br>
 <br>
