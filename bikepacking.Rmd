@@ -44,7 +44,7 @@ ___
 # Eskarparten
  <p style="text-align: center;">`r fontawesome::fa("clock", height = "12px")` 25.07.2022 - `r fontawesome::fa("calendar-days", height = "12px")` 10 Tage - `r fontawesome::fa("flag-checkered", height = "12px")` Kaparten - `r fontawesome::fa("road", height = "12px")` 1.800 km - `r fontawesome::fa("mountain", height = "12px")` 18.000 hm </p>
 
-In Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlose Weiten, viel Langos, Hunde und Bären. Eine Reise durch eine ganz andere Ecke Europas, wie sie seinesgleichen sucht. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
+In Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlose Weiten, viel Langos, Hunde und Bären. Eine Reise durch eine ganz andere Ecke Europas, wie sie seinesgleichen sucht. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2022-06-25-eskaparten/)
 
 ```{r , echo=FALSE}
 

@@ -154,3 +154,11 @@ Am Ende noch ein Transcontinental racer getroffen. Ich dachte ich hab wenig dabe
 Heimreise gestaltet sich äußerst spannend, wenn man dort strandet, wos kaum Empfang gibt und kein Bus fährt.
 Naja. Das waren die Eskaparten 🤭
 Vielleicht komm ich nochmal wieder 🤗
+
+___
+ <p style="text-align: left;">`r fontawesome::fa("arrow-left", height = "12px")`
+  [zum neusten Beitrag](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
+    <span style = "float:right;"> 
+      [zum vorherigen Beitrag](https://soeren-schwabbauer.github.io/blog/bikepacking/2022-06-25-eskaparten/)`r fontawesome::fa("arrow-right", height = "12px")` 
+      
+ </p>
