@@ -1,16 +1,42 @@
 ---
 title: "Bikepacking"
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
 ---
 
 
-# Die letzten Touren
-Hier gibts eine Übersicht meinen letzten Touren
+```{r , echo=FALSE}
+# load packages for carousel
+library(rprojroot)
+library(slickR)
+```
 
-## Race around Rwanda
+Bikepacking. Was gibts schöneres als Radlfahren, Essen und unbekannte Gegenden erkunden Richtig: Alles auf einmal machen. 
 
+# Race around Rwanda
+1000 Kilometer einmal um das Land der 1000 Hügel.  Ein self-supported Bikepacking Race, bei dem man nie alleine ist. 1000 Eindrücke und Geschichten. Hier kommen ein paar davon. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
 
+```{r , echo=FALSE}
 
+path_rar <- list.files(path = paste0(find_rstudio_root_file(), "/images/bikepacking_rar/"), full.names = TRUE)
 
-## Eskarparten
+slickR(obj = path_rar , width = "95%") + 
+  settings(autoplay = TRUE)
 
-__
+```
+ 
+
+# Eskarparten
+In Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlose Weiten, viel Langos, Hunde und Bären. Eine Reise durch eine ganz andere Ecke Europas, wie sie seinesgleichen sucht. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
+
+```{r , echo=FALSE}
+
+path_eskaparten <- list.files(path = paste0(find_rstudio_root_file(), "/images/bikepacking_eskaparten/"), full.names = TRUE)
+                     
+slickR(obj = path_eskaparten , height = "95%") + 
+  settings(autoplay = TRUE)
+
+```
+

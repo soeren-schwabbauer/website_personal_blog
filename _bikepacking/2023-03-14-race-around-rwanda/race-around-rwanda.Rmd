@@ -15,7 +15,6 @@ output:
 
 ## Die Route
 Die Route war vorgegeben. Ich habe sie hier eingebettet. Alle Rechte liegen bei den Veranstaltern des Race Around Rwanda. [Hier gehts zur Originalseite](http://racearoundrwanda.com/route/)
-
 ```{r projects, echo=FALSE}
 library(leaflet)
 library(sp)
@@ -24,12 +23,12 @@ library(rgdal)
 library(rprojroot)
 
 ## get gpx track
-track1 <- readOGR('rar.gpx', layer = "tracks", verbose = FALSE)
+track1 <- readOGR(paste0(find_rstudio_root_file(), "/content/rar.gpx"), layer = "tracks", verbose = FALSE)
 
 ## get manual points
 points_info <- read.csv2(paste0(find_rstudio_root_file(), "/content/map_points.csv"))
 
-points_schlaf <- points_info %>% dplyr::filter(description == "Schlaf") %>%
+points <- points_info %>% dplyr::filter(description == "Schlaf") %>%
 
   st_as_sf( coords = c("lon", "lat"), crs = 4326)
 
