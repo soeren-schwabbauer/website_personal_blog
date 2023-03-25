@@ -32,14 +32,7 @@ ___
  
 1000 Kilometer einmal um das Land der 1000 Hügel.  Ein self-supported Bikepacking Race, bei dem man nie alleine ist. 1000 Eindrücke und Geschichten. Hier kommen ein paar davon. Lust auf mehr? [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-03-14-race-around-rwanda/)
 
-```{r , echo=FALSE}
-
-path_rar <- list.files(path = paste0(find_rstudio_root_file(), "/images/bikepacking_rar/"), full.names = TRUE)
-
-slickR(obj = path_rar , width = "95%") + 
-  settings(autoplay = TRUE)
-
-```
+![](images/bikepacking_rar/4.jpg)
 
 ____
 
