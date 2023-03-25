@@ -23,5 +23,6 @@ collections:
     categories: true
   misc:
     categories: true
+google_analytics: "G-4E9M693ZZH"
 output: distill::distill_article
 
