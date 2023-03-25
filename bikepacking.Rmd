@@ -13,7 +13,7 @@ library(rprojroot)
 library(slickR)
 ```
 
-Bikepacking. Was gibts schöneres als Radlfahren, Essen und unbekannte Gegenden erkunden Richtig: Alles auf einmal machen. 
+Bikepacking. Was gibts schöneres als Radlfahren, Essen und unbekannte Gegenden erkunden? Richtig: Alles auf einmal machen. 
 
 ____
 
@@ -21,7 +21,7 @@ ____
 
 <p style="text-align: center;">`r fontawesome::fa("calendar-days", height = "12px")` 13.02.2023 - `r fontawesome::fa("clock", height = "12px")` 7 Tage - `r fontawesome::fa("flag-checkered", height = "12px")` Kigali - Fort Portal - `r fontawesome::fa("road", height = "12px")` 461 km - `r fontawesome::fa("mountain", height = "12px")` 5.500 hm </p>
  
-Gerade erholt vom Race around Rwanda ging es nochmal los  mit dem Wunsch "bloß keine Hügel mehr". Es sollte noch der ein oder andere Hügel kommen, bis ich vor den Weiten des Queen Victoria National Parks stehen sollte. Doch dort gab's nicht nur viel Flachland, sondern auch Elefanten zu bestaunen.
+Gerade erholt vom Race around Rwanda ging es nochmal los  mit dem Wunsch "bloß keine Hügel mehr". Es sollte noch der ein oder andere Hügel kommen, bis ich vor den Weiten des Queen Victoria National Parks stehen sollte. Doch dort gab's nicht nur viel Flachland, sondern auch Elefanten zu bestaunen. [Hier gehts zur ganzen Geschichte](https://soeren-schwabbauer.github.io/blog/bikepacking/2023-02-13-uganda/)
 
 ![](images/bikepacking_uganda/uganda1.jpg)
 
@@ -74,4 +74,11 @@ ___
 Nach 5 Klausuren in 5 Tagen nur noch weg. Nach dem überaschenderweise durchaus warmen Überqueren des Arlbergpasses gabs eigentlich kein Halten mehr. Ab durch die Schweiz, Baguette und Oliven in Fankreich und spätestens ab den Pyrenäen nur noch in kurz-kurz. Nachdem ich den Verkehrswahnsinn in Barcelona überlebt habe, ging es entlang der malerischen Spanischen Küste bis an den südlichsten Punkt Europas: Tarfia.
 
 ![](images/bikepacking_tarifa/tarifa.jpg)
+___
 
+# Im Winter ins Warme
+ <p style="text-align: center;">`r fontawesome::fa("calendar-days", height = "12px")` 18.02.2022 - `r fontawesome::fa("clock", height = "12px")` 12 Tage - `r fontawesome::fa("flag-checkered", height = "12px")` Innsbruck - Tarifa - `r fontawesome::fa("road", height = "12px")` 2.500 km - `r fontawesome::fa("mountain", height = "12px")` 23.000 hm </p>
+
+Nach 5 Klausuren in 5 Tagen nur noch weg. Nach dem überaschenderweise durchaus warmen Überqueren des Arlbergpasses gabs eigentlich kein Halten mehr. Ab durch die Schweiz, Baguette und Oliven in Fankreich und spätestens ab den Pyrenäen nur noch in kurz-kurz. Nachdem ich den Verkehrswahnsinn in Barcelona überlebt habe, ging es entlang der malerischen Spanischen Küste bis an den südlichsten Punkt Europas: Tarfia.
+
+![](images/bikepacking_tarifa/tarifa.jpg
