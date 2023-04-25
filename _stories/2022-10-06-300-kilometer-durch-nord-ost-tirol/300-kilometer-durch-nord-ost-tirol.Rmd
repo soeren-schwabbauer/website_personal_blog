@@ -3,7 +3,9 @@ title: "300 Kilometer durch Nord-Ost Tirol"
 description: |
   Verabreden sich 2 Radler über Strava - keine Pointe
 preview: /images/header.jpg
-categories: Radlrunde
+categories: 
+  - Radlrunde
+  - "2022"
 date: 2022-10-06
 output:
   distill::distill_article:

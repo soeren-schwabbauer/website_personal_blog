@@ -17,9 +17,7 @@ collections:
     categories: true
   bikepacking:
     categories: true
-  dreams:
-    categories: true
-  misc:
+  stories:
     categories: true
 google_analytics: "G-4E9M693ZZH"
 output: distill::distill_article

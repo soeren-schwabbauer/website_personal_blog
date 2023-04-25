@@ -1,5 +1,11 @@
 ---
 title: "Stories"
-description: Naja, so sonstiges soll es hier gar nicht sein. Hier finden sich Einträge über Sportromantik, heiße Tourentips (nicht alle müssen nachgefahren werden ;) und feine Radlstraßen aus aller Länder.
-listing: stories
-------
+descripition: Naja, so sonstiges soll es hier gar nicht sein. Hier finden sich Einträge über Sportromantik, heiße Tourentips (nicht alle müssen nachgefahren werden ;) und feine Radlstraßen aus aller Länder.
+listing:
+  stories:
+    - 2023-04-25-viele-wege-fhren-nach
+    - 2023-03-22-lago-di-bodo
+    - 2022-10-29-ab-zur-oma
+    - 2022-10-06-300-kilometer-durch-nord-ost-tirol
+    - 2022-09-23-gadasee-expressofahrt
+---

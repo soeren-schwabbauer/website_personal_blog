@@ -4,7 +4,9 @@ description: |
   Einmal rum um Deutschlands größten See. Im Trio pedalliert was das Zeug hält. Abschließen bleibt noch die Frage: Wisst ihr eigentlich, wie langsam das war?
 preview: /images/header.jpg
 date: 2023-03-19
-categories: Radlrunde
+categories: 
+  - Radlrunde
+  - '2023'
 output:
   distill::distill_article:
     self_contained: false

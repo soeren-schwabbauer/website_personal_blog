@@ -1,7 +1,9 @@
 ---
 title: "Miscellaneous"
 description: Naja, so sonstiges soll es hier gar nicht sein. Hier finden sich Einträge über Sportromantik, heiße Tourentips (nicht alle müssen nachgefahren werden ;) und feine Radlstraßen aus aller Länder.
-listing: misc
+listing:
+  posts:
+    - 2016-11-08-sharpe-ratio
 ---
 
 

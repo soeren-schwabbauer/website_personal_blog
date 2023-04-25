@@ -1,15 +1,16 @@
 ---
 title: "Viele Wege führen nach ..."
 description: |
-  A short description of the post.
-author:
-  - name: Unknown
-date: 2023-04-25
+  Nach Riwa. Wohin denn sonst?
+date: 2023-03-19
+categories: 
+  - Kurztrip
+  - '2023'
 output:
   distill::distill_article:
     self_contained: false
+    toc: false
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

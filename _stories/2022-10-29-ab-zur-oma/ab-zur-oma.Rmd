@@ -3,7 +3,9 @@ title: "Ab zur Oma"
 description: |
   Von Innsbruck nach Wilhelmshaven. Auf 1000 Kilometern quer durch Deutschland. Die letzten warmen Tage des Jahres 2022 noch einmal voll ausgenutzt.
 preview: /images/header.jpg
-categories: Radlrunde
+categories:
+  - Kurztrip
+  - '2022'
 date: 2022-10-29
 output:
   distill::distill_article:
