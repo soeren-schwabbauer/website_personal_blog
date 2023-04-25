@@ -7,7 +7,6 @@ links:
     url: "https://www.strava.com/athletes/21979971"
   - label: Instagram
     url: "https://www.instagram.com/soaren_flyin/"
-  - label: GitHub
 site: distill::distill_website
 output:
   postcards::trestles
