@@ -9,10 +9,8 @@ navbar:
       href: index.html
     - text: "Bikepacking"
       href: bikepacking.html
-    - text: "Ziele & Träume"
-      href: dreams.html
-    - text: "Misc"
-      href: misc.html
+    - text: "Stories"
+      href: stories.html
 
 collections:
   posts: 
