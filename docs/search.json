@@ -1,42 +1,28 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
-      "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-22T20:58:03+01:00"
-    },
-    {
       "path": "bikepacking.html",
       "title": "Bikepacking",
+      "description": "Bikepacking. Was gibts schöneres als Radlfahren, Essen und unbekannte Gegenden erkunden? Richtig - Alles auf einmal machen.",
       "author": [],
-      "contents": "\r\nDie letzten Touren\r\nHier gibts eine Übersicht meinen letzten Touren\r\nRace around Rwanda\r\n\r\n__\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-22T21:01:56+01:00"
-    },
-    {
-      "path": "dreams.html",
-      "title": "Ziele & Träume ...",
-      "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-22T20:58:03+01:00"
+      "contents": "\r\n\r\nContents\r\n2023\r\nSüd-Ost Uganda\r\nRace around Rwanda\r\nInnsbruck - Athen. Ende der Storyline\r\nEskarparten\r\nLet’s fiets to Amsterdam\r\nIm Winter ins Warme\r\n\r\n\r\n\r\n\r\n\r\n2023\r\nSüd-Ost Uganda\r\n\r\n 13.02.2023 -  7 Tage -  Kigali - Fort Portal -  461 km -  5.500 hm\r\n\r\nGerade erholt vom Race around Rwanda ging es nochmal los mit dem Wunsch “bloß keine Hügel mehr”. Es sollte noch der ein oder andere Hügel kommen, bis ich vor den Weiten des Queen Victoria National Parks stehen sollte. Doch dort gab’s nicht nur viel Flachland, sondern auch Elefanten zu bestaunen. Hier gehts zur ganzen Geschichte\r\n\r\nRace around Rwanda\r\n\r\n 05.02.2023 -  83 h -  Rwanda -  1.000 km -  17.500 hm\r\n\r\n1000 Kilometer einmal um das Land der 1000 Hügel. Ein self-supported Bikepacking Race, bei dem man nie alleine ist. 1000 Eindrücke und Geschichten. Hier kommen ein paar davon. Lust auf mehr? Hier gehts zur ganzen Geschichte\r\n\r\nInnsbruck - Athen. Ende der Storyline\r\n\r\n 20.08.2022 -  9 Tage -  Innsbruck - Athen -  2.200 km -  22.000 hm\r\n\r\nVon Innsbruck im Turbomodus nach Athen. Entlang der Adria auf der Suche nach dem besten Café Fredo Griechenlands.\r\n\r\nEskarparten\r\n\r\n 25.07.2022 -  10 Tage -  Kaparten -  1.800 km -  18.000 hm\r\n\r\nIn Wien gestartet, ging es über Ungarn rein in die rumänischen Kaparten. Endlose Weiten, viel Langos, Hunde und Bären. Eine Reise durch eine ganz andere Ecke Europas, wie sie seinesgleichen sucht. Lust auf mehr?\r\n\r\nLet’s fiets to Amsterdam\r\n\r\n 15.07.2022 -  9 Tage -  Innsbruck - Amsterdam -  1.270 km -  7.500 hm\r\n\r\nVon Innsbruck ab nach Amsterdam. Entlang des Bodensees und durch den Schwarzwald weiter nach Freiburg. An den heißesten Tagen des Jahres durch Strasburg und weiter nach Luxemburg und Belgien. Dann noch gegen den Gegenwind an der Küste gekämpft und schon warn ma da.\r\n\r\nIm Winter ins Warme\r\n\r\n 18.02.2022 -  12 Tage -  Innsbruck - Tarifa -  2.500 km -  23.000 hm\r\n\r\nNach 5 Klausuren in 5 Tagen nur noch weg. Nach dem überaschenderweise durchaus warmen Überqueren des Arlbergpasses gabs eigentlich kein Halten mehr. Ab durch die Schweiz, Baguette und Oliven in Fankreich und spätestens ab den Pyrenäen nur noch in kurz-kurz. Nachdem ich den Verkehrswahnsinn in Barcelona überlebt habe, ging es entlang der malerischen Spanischen Küste bis an den südlichsten Punkt Europas: Tarfia.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-04-25T18:01:24+02:00"
     },
     {
       "path": "index.html",
-      "title": "My Blog",
+      "title": "Bienvenue",
+      "description": "scheint, als hättest du dich auf meinen Blog verirrt. Hier halte ich fest, was Strava irgendwann verschluckt und nicht zeigt: Bikepackingtouren, Träume und Projekte.",
       "author": [],
-      "contents": "\r\nHier ein paar Ideen\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-22T20:58:22+01:00"
+      "contents": "\r\n\r\n          \r\n          \r\n          Sören Schwabbauer\r\n          \r\n          \r\n          Home\r\n          Bikepacking\r\n          Stories\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Bienvenue\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        Strava\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Instagram\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            Hier kommt Text\r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Bienvenue\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      Strava\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Instagram\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              Hier kommt Text\r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    \r\n      © 2022 Sören Schwabbauer\r\n      \r\n      \r\n\r\n  \r\n  ",
+      "last_modified": "2023-04-25T18:01:24+02:00"
     },
     {
-      "path": "misc.html",
-      "title": "Miscellaneous",
-      "description": "Naja, so sonstiges soll es hier gar nicht sein. Hier finden sich Einträge über Sportromantik, heiße Tourentips (nicht alle müssen nachgefahren werden ;) und feine Radlstraßen aus aller Länder.",
+      "path": "stories.html",
+      "title": "Stories",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-03-22T20:58:04+01:00"
+      "last_modified": "2023-04-25T17:53:15+02:00"
     }
   ],
-  "collections": ["posts/posts.json", "bikepacking/bikepacking.json", "dreams/dreams.json", "misc/misc.json"]
+  "collections": ["posts/posts.json", "bikepacking/bikepacking.json", "stories/stories.json"]
 }

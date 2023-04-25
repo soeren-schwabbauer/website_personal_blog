@@ -1,16 +1,16 @@
 ---
 title: "Bienvenue"
 description: "scheint, als hättest du dich auf meinen Blog verirrt. Hier halte ich fest, was Strava irgendwann verschluckt und nicht zeigt: Bikepackingtouren, Träume und Projekte."
+image: "tobi.jpg"
+links:
+  - label: Strava
+    url: "https://www.strava.com/athletes/21979971"
+  - label: Instagram
+    url: "https://www.instagram.com/soaren_flyin/"
+  - label: GitHub
+site: distill::distill_website
 output:
-  distill::distill_article:
-    css: "strapless.css"
-
-
+  postcards::trestles
 ---
 
-| Option           | Description                                    |
-|------------------|------------------------------------------------|
-| `rows.print`     | Maximum rows to print per page.                |
-| `max.print`      | Maximum rows in the table (defaults to 1000).  |
-| `cols.print`     | Maximum columns in the table (defaults to 10). |
-| `rownames.print` | Print row names as part of the table.          |
+Hier kommt Text
