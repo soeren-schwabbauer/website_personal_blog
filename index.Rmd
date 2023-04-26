@@ -1,7 +1,6 @@
 ---
-title: "Bienvenue"
-description: "scheint, als hättest du dich auf meinen Blog verirrt. Hier halte ich fest, was Strava irgendwann verschluckt und nicht zeigt: Bikepackingtouren, Träume und Projekte."
-image: "tobi.jpg"
+title: "Sören's Abenteuer"
+image: "header.jpg"
 links:
   - label: Strava
     url: "https://www.strava.com/athletes/21979971"
@@ -9,7 +8,14 @@ links:
     url: "https://www.instagram.com/soaren_flyin/"
 site: distill::distill_website
 output:
-  postcards::trestles
+  postcards::solana
 ---
 
-Hier kommt Text
+# Bikepacking
+hier kommt text
+
+# Stories
+hier kommt text
+
+# Spendenaktion
+hier kommt text
