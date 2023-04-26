@@ -1,5 +1,5 @@
 ---
-title: "Sören's Abenteuer"
+title: "Sören Schwabbauer"
 image: "header.jpg"
 links:
   - label: Strava
@@ -10,9 +10,10 @@ site: distill::distill_website
 output:
   postcards::solana
 ---
+Oh hi, freut mich, dass du dich auf meine Blog verirrt hast. Hier probiere ich all das festzuhalten, was auf Instagram keine Beachtung findet und auf Strava irgdenwann untergeht: Bikepackinggeschichten und sonstige Erlebnisse auf dem Rad.
 
 # Bikepacking
-hier kommt text
+
 
 # Stories
 hier kommt text
