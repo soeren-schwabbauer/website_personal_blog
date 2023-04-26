@@ -3,7 +3,7 @@ title: "Viele Wege führen nach ..."
 description: |
   Nach Riwa. Wohin denn sonst?
 date: 2023-04-02
-preview: /header.jpg
+preview: /images/header.jpg
 categories: 
   - '2023'
   - Kurztrip
