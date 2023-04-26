@@ -12,6 +12,9 @@ output:
     self_contained: false
     toc: true
 ---
+
+![](images/header.jpg)
+
 # Die Idee
 Geplant war von Pforzheim nach Rom zu radln. Leider liegt Rom doch etwas zu weit im Süden für einen Kurztrip, weshalb eine Alternative her musste. So wurde es eine Runde durch die Alpen.
 
