@@ -8,15 +8,16 @@ links:
     url: "https://www.instagram.com/soaren_flyin/"
 site: distill::distill_website
 output:
-  postcards::solana
+  postcards::trestles
 ---
-Oh hi, freut mich, dass du dich auf meine Blog verirrt hast. Hier probiere ich all das festzuhalten, was auf Instagram keine Beachtung findet und auf Strava irgdenwann untergeht: Bikepackinggeschichten und sonstige Erlebnisse auf dem Rad.
+Oh hi, freut mich, dass du dich auf meine Blog verirrt hast. Hier probiere ich all das festzuhalten, was auf Instagram keine Beachtung findet und auf Strava irgendwann untergeht: Bikepackinggeschichten und sonstige Erlebnisse auf dem Rad.
 
 # Bikepacking
+Was gibts schöneres als Radlfahren, Essen und unbekannte Gegenden erkunden? Richtig - Alles auf einmal machen. 2021 begann alles mit einer Tour durch die Alpen. Weil aber nicht duschen und jeden Tag dieselbe Radhose anhaben irrsinnig viel Spaß macht, ist daraus eine Leidenschaft geworden. Habe ich noch etwas vergessen? Ach ja richtig: unzählige einmalige Erlebnisse, unfassbar viele inspirierende Menschen und immer ganz nah an der Natur. Das ist es, was diesen Sport so besonders macht. [Hier gehts zu den Touren](https://soeren-schwabbauer.github.io/blog/bikepacking.html).
 
 
 # Stories
-hier kommt text
+[Hier](https://soeren-schwabbauer.github.io/blog/stories.html) finden sich sportliche Radltouren oder tolle Ausflüge ins Grünen, zur Oma oder an den Gardasee. 
 
 # Spendenaktion
-hier kommt text
+Ich bin der Überzeugung, dass Bildung Chancen ermöglicht und neue Perspektiven ermöglicht. Aus diesem Grund möchte ich mich einer sportlichen Herausforderung stellen und Geld für den Stipendienfond einer togoischen Schule sammeln. Interesse geweckt? [Hier](https://soeren-schwabbauer.github.io/blog/spendenaktion.html) gibts alle Infos

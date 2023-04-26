@@ -1,6 +1,5 @@
 ---
 title: "Bikepacking"
-description: Bikepacking. Was gibts schöneres als Radlfahren, Essen und unbekannte Gegenden erkunden? Richtig - Alles auf einmal machen. 
 output:
   distill::distill_article:
     self_contained: false
