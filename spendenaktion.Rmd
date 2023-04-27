@@ -24,22 +24,22 @@ time <- format(Sys.time(), format="%d. %B, %H:%M Uhr")
 
 <b> Als Pauschalbetrag wurden bisher `r sum_pauschalbetrag` Euro gespendet
 
-Bei einem erfolgreichen Finish kommen insgesammt `r sum_finish` Euro zusammen. 
+Bei einem erfolgreichen Finish kommen insgesamt `r sum_finish` Euro zusammen. 
 
 Das sind `r sum_finish/60` Jahre Schulbildung für Kinder aus sozial schwachen Familien, die sonst keinen Zugang zu guter Bildung hätten. </b>
 
 <div style="text-align: right">  (Stand: `r time`) </i>  </div>
 
 # Mein Ziel
-Mein Ziel ist es aus eigenem Antrieb, self-supported$^1$ & schnellstmöglich vom tiefsten Punkt Deutschlands zum Höchsten zu gelangen. Anders gesagt: von Neuendorf-Sachsenbande (nördlich von Hamburg) auf die Zugspitze. Die gut 900 Kilometer (mit 7.200 Höhenmetern) lange Radstrecke führt mich durch 5 Bundesländer und endet an der Reintalangerhütte im Partnachtal bei Garmisch-Patenkirchen. Von dort trennen mich noch 6 Kilometer (mit 1.500 Höhenmetern) von Deutschlands höchstem Gipfel.
+Mein Ziel ist es, aus eigenem Antrieb, self-supported$^1$ & schnellstmöglich vom tiefsten Punkt Deutschlands zum Höchsten zu gelangen. Anders gesagt: von Neuendorf-Sachsenbande (nördlich von Hamburg) auf die Zugspitze. Die gut 900 Kilometer (mit 7.200 Höhenmetern) lange Radstrecke führt mich durch 5 Bundesländer und endet an der Reintalangerhütte im Partnachtal bei Garmisch-Patenkirchen. Von dort trennen mich noch 6 Kilometer (mit 1.500 Höhenmetern) von Deutschlands höchstem Gipfel.
 
-<aside> $^1$ self-supported heißt dabei, ohne fremde Hilfe. Alles was ich zum Erreichen des Ziels benötige werde ich von Anfang an mitnehmen. Unterwegs werde ich mich selbst versorgen. 
+<aside> $^1$ self-supported heißt dabei, ohne fremde Hilfe. Alles, was ich zum Erreichen des Ziels benötige, werde ich von Anfang an mitnehmen. Unterwegs werde ich mich selbst versorgen. 
 </aside>
 
 ### Meine Motivation
-Bildung ist leider bei Weitem keine Selbstverständlichkeint. Im Rahmen dieser sportlichen Herausforderung möchte ich auf ein Schulprojekt im Togo aufmerksam machen. <b> Die Schule bietet einen Stipendienfond für Kinder aus sozial-schwachen Familien, um jedem Kind eine Chance auf Bildung zu ermöglichen.</b> Um laufende Kosten zu decken, fallen im Schnitt <b> 30€ pro Halbjahr pro Kind an </b>. Für diesem Fond möchte ich Spenden sammeln und ich würde mich riesig freuen, wenn du mich dabei unterstützt.
+Bildung ist leider bei Weitem keine Selbstverständlichkeit. Im Rahmen dieser sportlichen Herausforderung möchte ich auf ein Schulprojekt im Togo aufmerksam machen. <b> Die Schule bietet einen Stipendienfonds für Kinder aus sozial-schwachen Familien, um jedem Kind eine Chance auf Bildung zu ermöglichen.</b> Um laufende Kosten zu decken, fallen im Schnitt <b> 30 € pro Halbjahr pro Kind an </b>. Für diesem Fond möchte ich Spenden sammeln und ich würde mich riesig freuen, wenn du mich dabei unterstützt.
 
-Auf das Schulprojekt "Mon Devoir" und den gleichnamigen Freiburger Verein, der die Schule unterstützt, bin ich auf einer Reise in den Togo nach dem Abitur/ der Matura gestoßen. Mich begeistert dabei besonders das freiwillige Engagement, mit dem sich Unterstützerinnen und Unterstützer engagieren. Durch den regelmäßgien Kontakt zum Vorstand, sowie aktiven Mitgliedern im Verein, vertraue ich darauf, dass das gespendete Geld zu in <b> voller Höhe </b> dort eingesetzt wird, wo es verwendet werden soll.
+Auf das Schulprojekt "Mon Devoir" und den gleichnamigen Freiburger Verein, der die Schule unterstützt, bin ich auf einer Reise in den Togo nach dem Abitur/ der Matura gestoßen. Mich begeistert dabei besonders das freiwillige Engagement, mit dem sich Unterstützerinnen und Unterstützer engagieren. Durch den regelmäßigen Kontakt zum Vorstand, sowie aktiven Mitgliedern im Verein, vertraue ich darauf, dass das gespendete Geld zu in <b> voller Höhe </b> dort eingesetzt wird, wo es verwendet werden soll.
 
 
 ### Die Strecke
@@ -71,7 +71,7 @@ leaflet(width=2000) %>%
 ```
 
 # Interesse geweckt?
-Ich freue mich über jede Form der Unterstützung und möchte mich jetzt schonmal für dein Interesse bedanken. Falls du noch offene Fragen hast, melde dich gerne bei mir via [E-Mail](mailto:soeren@schwabbauer.de) Für interessierte Spender würde ich eine Whatsappgruppe erstellen. Dort werde ich Updates von Unterwegs, sowie dem Spendenstand teilen.
+Ich freue mich über jede Form der Unterstützung und möchte mich jetzt schonmal für dein Interesse bedanken. Falls du noch offene Fragen hast, melde dich gerne bei mir via [E-Mail](mailto:soeren@schwabbauer.de). Für interessierte Spender würde ich eine Whatsapp Gruppe erstellen. Dort werde ich Updates von Unterwegs, sowie dem Spendenstand teilen.
 
 Wer noch mehr Informationen über die Schule oder den Verein möchte, kann sich gerne [hier](https://www.mon-devoir.de/) auf der Homepage etwas umschauen.
 
@@ -80,7 +80,7 @@ Wer noch mehr Informationen über die Schule oder den Verein möchte, kann sich 
 &ensp;&thinsp;&ensp;&thinsp; Mon Devoir e.V. <br>
 &ensp;&thinsp;&ensp;&thinsp; BIC: GENODE61FR1 <br>
 &ensp;&thinsp;&ensp;&thinsp; IBAN: DE91 6809 0000 0025 3991 02 <br>
-<i>Das Ausstellen einer Spendenbescheinigung ist möglich. Hierfür bitte eine E-Mail Adresse im Formular angeben.</i>
+<i>Das Ausstellen einer Spendenbescheinigung ist möglich. Hierfür bitte eine E-Mail-Adresse im Formular angeben.</i>
 
 
 <b> Um einen Überblick zu bekommen würde ich mich freuen, wenn du dieses Formular noch kurz ausfüllst. Ist natürlich völlig unverbindlich und kein Muss. Ich freue mich auch über anonyme Spenden!! </b>
@@ -88,23 +88,23 @@ Wer noch mehr Informationen über die Schule oder den Verein möchte, kann sich 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2w_MdyuJ03ciN__Pcdi56HoCn0U001RJt3WnPXLWP80Teew/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
 
 
-# Weitere Inforamtionen über das Land & die Schule
+# Weitere Informationen über das Land & die Schule
 
 ### Das Land Togo & die Stadt Aogé
-Togo ist eines der ärmsten und kleinsten Ländern Afrikas. Im Westen grenzt es an Ghana und im Osten and Benin. Von den rund 8,2 Millionen Einwohnern sind 59% unter 25 Jahre. 
+Togo ist eines der ärmsten und kleinsten Ländern Afrikas. Im Westen grenzt es an Ghana und im Osten an Benin. Von den rund 8,2 Millionen Einwohnern sind 59% unter 25 Jahre. 
 
-Von 1904 bis 1914 war das Land eine Deutsche Kolonie. Bist 1960 wurde das Land von Frankreich verwaltet. Von dort an litt das Land fast 40 Jahre lang unter der Alleinherrschaft und Militärdiktatur des ersten Präsidenten. Seit 2002 gilt Togo als eine präsidentielle Demokratie.
+Von 1904 bis 1914 war das Land eine Deutsche Kolonie. Bis 1960 wurde das Land von Frankreich verwaltet. Von dort an litt das Land fast 40 Jahre lang unter der Alleinherrschaft und Militärdiktatur des ersten Präsidenten. Seit 2002 gilt Togo als eine präsidentielle Demokratie.
 
 Viele Jahre lang legte die Regierung keinerlei Wert auf den Ausbau der Bildung. Die Lehrerbildungsstätten wurden aus Geldmangel geschlossen. Für alle Schulen musste Schulgeld bezahlt werden. Erst seit einigen Jahren ist zumindest der Besuch der 6-jährigen Grundschule kostenlos. Allerdings gibt es nach wie vor keine Lernmittelfreiheit und keine kostenlosen weiterführenden Schulen. In vielen Klassen werden mehr als 70 Schülerinnen und Schüler unterrichtet.
 
-Die Schule selbst liegt in Zongo. Zogo ist ein Stadtteil von Agoé, einer schnell wachsenden Stadt an der nördlichen Peripherie von Lomé. Zongo liegt abseits vom Stadtkern in einem sumpfigen Gebiet. In diesem Stadtteil leben überwiegend muslimische Familien. Viele Menschen sind in den letzten Jahren zugewandert aus dem Norden Togos und aus den unruhigen Staaten der Region. Die Zahl der Menschen, vor allem Frauen, die nicht Französisch spricht und nie eine Schule besucht hat, ist in Zongo größer als im Rest von Togo. Viele der Häuser haben keinen Zugang zu Strom und fließendem Wasser. Eine regelmäßige öffentliche Verkehrsverbindung nach Lomé gibt es nicht. Eine geregelte Müllabfuhr steckt noch in zarten Anfängen. Die meisten Menschen in Zongo haben keine feste Anstellung und arbeiten im informellen Bereich. Zongo wird von der großen, vierspurigen Nationalstraße nach Norden zweigeteilt. Fußgängerbrücken gibt es nicht und Ampeln sind selten. Direkt an der Straße, gegenüber der Schule befindet sich der "Port du Sahel", Teil des Hafens von Lomé, wo mit Gebrauchtwaren aller Art gehandelt wird und LKWs auf ihre Ladetermine am Hafen  warten. Es gibt in Agoé staatliche Grundschulen, ein weiteres privates Collége und Gymnasium sowie ein großes islamisches Schulzentrum, finanziert von Saudi Arabien. Die Zahl der Kinder in den Familien ist in Zongo sehr hoch. Da viele Erwachsene Arbeit in Nachbarländern oder den Golfstaaten suchen, gibt es auch eine große Zahl Alleinerziehender. 
+Die Schule selbst liegt in Zongo. Zogo ist ein Stadtteil von Agoé, einer schnell wachsenden Stadt an der nördlichen Peripherie von Lomé. Zongo liegt abseits vom Stadtkern in einem sumpfigen Gebiet. In diesem Stadtteil leben überwiegend muslimische Familien. Viele Menschen sind in den letzten Jahren zugewandert aus dem Norden Togos und aus den unruhigen Staaten der Region. Die Zahl der Menschen, vor allem Frauen, die nicht Französisch spricht und nie eine Schule besucht hat, ist in Zongo größer als im Rest von Togo. Viele der Häuser haben keinen Zugang zu Strom und fließendem Wasser. Eine regelmäßige öffentliche Verkehrsverbindung nach Lomé gibt es nicht. Eine geregelte Müllabfuhr steckt noch in zarten Anfängen. Die meisten Menschen in Zongo haben keine feste Anstellung und arbeiten im informellen Bereich. Zongo wird von der großen, vierspurigen Nationalstraße nach Norden zweigeteilt. Fußgängerbrücken gibt es nicht und Ampeln sind selten. Direkt an der Straße, gegenüber der Schule befindet sich der "Port du Sahel", Teil des Hafens von Lomé, wo mit Gebrauchtwaren aller Art gehandelt wird und LKWs auf ihre Ladetermine am Hafen  warten. Es gibt in Agoé staatliche Grundschulen, ein weiteres privates Collége und Gymnasium sowie ein großes islamisches Schulzentrum, finanziert von Saudi-Arabien. Die Zahl der Kinder in den Familien ist in Zongo sehr hoch. Da viele Erwachsene Arbeit in Nachbarländern oder den Golfstaaten suchen, gibt es auch eine große Zahl Alleinerziehender. 
 
 ### Die Schule und der Verein "Mon Devoir"
-Die Schule wurde 1997 als Grundschule von Mamane Awal Bida (1953-2012) gegründet. Möglich wurde dies durch die finanzielle Unterstützung von Frau Dr. Elisabeth Scharpff (1920-2014). Beide hatten sich in Hamburg kennen gelernt, wo Monsieur Bida einige Jahre gelebt hat. Frau Dr. Scharpff unterstützte die Schule noch viele Jahre und stattete ihr auch selbst einen Besuch ab. Von Beginn an war Mon Devoir eine laizistische Schule, in der Mädchen und Jungen gleich welcher Religionszugehörigkeit unterrichtet wurden. 2007 gründete der Neffe von Frau Dr. Scharpff, Dr. Jörg Scharpff auf Wunsch seiner Tante in Freiburg den Förderverein Mon Devoir e.V. Er hat die Renovierung der Grundschule, Ausbau und Weiterentwicklung der Schule seither entscheidend vorangetrieben. Heute wird die Schule von etwa 1000 Kindern und Jugendlichen besucht.
+Die Schule wurde 1997 als Grundschule von Mamane Awal Bida (1953-2012) gegründet. Möglich wurde dies durch die finanzielle Unterstützung von Frau Dr. Elisabeth Scharpff (1920-2014). Beide hatten sich in Hamburg kennengelernt, wo Monsieur Bida einige Jahre gelebt hat. Frau Dr. Scharpff unterstützte die Schule noch viele Jahre und stattete ihr auch selbst einen Besuch ab. Von Beginn an war Mon Devoir eine laizistische Schule, in der Mädchen und Jungen gleich welcher Religionszugehörigkeit unterrichtet wurden. 2007 gründete der Neffe von Frau Dr. Scharpff, Dr. Jörg Scharpff auf Wunsch seiner Tante in Freiburg den Förderverein Mon Devoir e.V. Er hat die Renovierung der Grundschule, Ausbau und Weiterentwicklung der Schule seither entscheidend vorangetrieben. Heute wird die Schule von etwa 1000 Kindern und Jugendlichen besucht.
 
 Auszug aus dem Leitbild der Schule 
 - Gleiche Chancen für alle Kinder, unabhängig von Geschlecht, Religion oder Herkunft 
-- Gleiche Chancen auf Einstellung und Gleichbehandlung aller Mitglieder des Kollegiums, gleich welchenGeschlechts, welcher Religion, welcher politischen Einstellung oder welcher Herkunft 
+- Gleiche Chancen auf Einstellung und Gleichbehandlung aller Mitglieder des Kollegiums, gleich welchen Geschlechts, welcher Religion, welcher politischen Einstellung oder welcher Herkunft 
 - Erziehung der Kinder und Jugendlichen zu Toleranz und Respekt 
 - Gewaltfreier, respektvoller Umgang aller am Schulleben beteiligten Personen miteinander 
 - Förderung des Verantwortungsbewusstseins für die Schule, den Ort und die Umwelt 
@@ -112,10 +112,7 @@ Auszug aus dem Leitbild der Schule
 - Qualifizierter, regelmäßiger Unterricht 
 - Maximal 40 Kinder in einer Klasse (In Togo sind 80 oder mehr Kinder in einer Klasse keine Seltenheit.) 
 - Gründliche Vorbereitung der Klassen auf die staatlichen Prüfungen 
-- Der Förderverein behält sich vor, die Förderung der Schule einzustellen oder zu unterbrechen, wenn die Umsetzung der Ideen des Leitbildes und der Inhalte der Schulordnung im Schulalltag nicht gewährleistet ist. Gleiches gilt wenn die halbjährlichen Finanzberichte nicht rechtzeitig vorliegen oder deren Inhalt nicht nachvollziehbar ist. 
+- Der Förderverein behält sich vor, die Förderung der Schule einzustellen oder zu unterbrechen, wenn die Umsetzung der Ideen des Leitbildes und der Inhalte der Schulordnung im Schulalltag nicht gewährleistet ist. Gleiches gilt, wenn die halbjährlichen Finanzberichte nicht rechtzeitig vorliegen oder deren Inhalt nicht nachvollziehbar ist. 
 
 ### Die Schüler der Schule
-Im Kindergarten werden in drei Gruppen zwischen ca. 80 Kinder betreut. Ein Ziel der Arbeit dort ist u.a. den Kindern die nötigen Französischkenntnisse für den Schulbesuch zu vermitteln. Die 6-jährige Grundschule wird doppelzügig geführt und von ca. 500 Kindern besucht Das 4-jährige Collége bildet etwa 290 Schülerinnen und Schüler aus. An das College schließt sich ein 3-jähriges Gymnasium an. Mon Devoir bietet einen naturwissenschaftlichen und einen sprachlichen Zweig an. In den 6 Klassen werden etwa 175 Schülerinnen und Schüler unterrichtet. Das Zahlenverhältnis von Mädchen und Jungen ist in Etwa gleich. Zwei Drittel aller Schüler*innen haben Geschwister an der Schule. In Togo müssen alle Klassen am Ende jeden Schuljahres eine zentrale Prüfung absolvieren. Diese Prüfungen legen weniger Wert auf Problemlösungen oder individuelle Problembetrachtungen, sondern erfordern in den meisten Bereichen hauptsächlich fleißiges Lernen. Die Ergebnisse werden für den gesamten Schulbezirk veröffentlicht. Die Mon-Devoir-Absolventinnen und Absolventen schneiden dabei in der Regel sehr gut ab. 
-
-
-
+Im Kindergarten werden in drei Gruppen zwischen ca. 80 Kinder betreut. Ein Ziel der Arbeit dort ist u.a. den Kindern die nötigen Französischkenntnisse für den Schulbesuch zu vermitteln. Die 6-jährige Grundschule wird doppelzügig geführt und von ca. 500 Kindern besucht Das 4-jährige Collége bildet etwa 290 Schülerinnen und Schüler aus. An das College schließt sich ein 3-jähriges Gymnasium an. Mon Devoir bietet einen naturwissenschaftlichen und einen sprachlichen Zweig an. In den 6 Klassen werden etwa 175 Schülerinnen und Schüler unterrichtet. Das Zahlenverhältnis von Mädchen und Jungen ist in etwa gleich. Zwei Drittel aller Schüler*innen haben Geschwister an der Schule. In Togo müssen alle Klassen am Ende jeden Schuljahres eine zentrale Prüfung absolvieren. Diese Prüfungen legen weniger Wert auf Problemlösungen oder individuelle Problembetrachtungen, sondern erfordern in den meisten Bereichen hauptsächlich fleißiges Lernen. Die Ergebnisse werden für den gesamten Schulbezirk veröffentlicht. Die Mon-Devoir-Absolventinnen und Absolventen schneiden dabei in der Regel sehr gut ab. 
