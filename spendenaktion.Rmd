@@ -1,6 +1,6 @@
 ---
 title: "Spendenaktion"
-description: "Ich bin der Überzeugung, dass Bildung Chancen ermöglicht und neue Perspektiven ermöglicht. Aus diesem Grund möchte ich mich einer sportlichen Herausforderung stellen und Geld für den Stipendienfond einer togoischen Schule sammeln."
+description: "Ich bin der Überzeugung, dass Bildung Chancen ermöglicht und neue Perspektiven ermöglicht. Aus diesem Grund möchte ich mich einer sportlichen Herausforderung stellen und Geld für den Stipendienfond einer togoischen Schule sammeln.  "
 image: "header.jpg"
 site: distill::distill_website
 output:
@@ -37,7 +37,52 @@ Auszug aus dem Leitbild der Schule
 ### Die Schüler der Schule
 Im Kindergarten werden in drei Gruppen zwischen ca. 80 Kinder betreut. Ein Ziel der Arbeit dort ist u.a. den Kindern die nötigen Französischkenntnisse für den Schulbesuch zu vermitteln. Die 6-jährige Grundschule wird doppelzügig geführt und von ca. 500 Kindern besucht Das 4-jährige Collége bildet etwa 290 Schülerinnen und Schüler aus. An das College schließt sich ein 3-jähriges Gymnasium an. Mon Devoir bietet einen naturwissenschaftlichen und einen sprachlichen Zweig an. In den 6 Klassen werden etwa 175 Schülerinnen und Schüler unterrichtet. Das Zahlenverhältnis von Mädchen und Jungen ist in Etwa gleich. Zwei Drittel aller Schüler*innen haben Geschwister an der Schule. In Togo müssen alle Klassen am Ende jeden Schuljahres eine zentrale Prüfung absolvieren. Diese Prüfungen legen weniger Wert auf Problemlösungen oder individuelle Problembetrachtungen, sondern erfordern in den meisten Bereichen hauptsächlich fleißiges Lernen. Die Ergebnisse werden für den gesamten Schulbezirk veröffentlicht. Die Mon-Devoir-Absolventinnen und Absolventen schneiden dabei in der Regel sehr gut ab. 
 
-# Mein Projekt
+
+# Das Projekt
+Mein Ziel ist es aus eigenem Antrieb, self-supported$^1$ & schnellstmöglich vom tiefsten Punkt Deutschlands zum Höchsten zu gelangen. Anders gesagt: von Neuendorf-Sachsenbande (nördlich von Hamburg) auf die Zugspitze. Die gut 900 Kilometer (mit 7.200 Höhenmetern) lange Radstrecke führt mich durch 5 Bundesländer und endet an der Reintalangerhütte im Partnachtal bei Garmisch-Patenkirchen. Von dort trennen mich noch 6 Kilometer (mit 1.500 Höhenmetern) von Deutschlands höchsten Gipfel.
+
+<aside> $^1$ self-supported heißt dabei, ohne fremde Hilfe. Alles was ich zum Erreichen des Ziels benötige werde ich von Anfang an mitnehmen. Unterwegs werde ich mich selbst versorgen. 
+</aside>
+
+### Meine Motivation
+Ich bin auf das Schulprojekt und den Verein "Mon Devoir" auf einer Reise in den Togo nach dem Abitur/Matura gestoßen. Mich begeistert dabei besonders das freiwillige Engagement, mit dem sich Unterstützerinnen und Unterstützer engagieren. Durch den regelmäßgien Kontakt zum Vorstand, sowie aktiven Mitgliedern im Verein, vertraue ich darauf, dass das gespendete Geld zu in voller Höhe dort eingesetzt wird, wo es verwendet werden soll.
+
+### Die Strecke
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+bike <- readOGR(paste0(getwd(), "/images/spendenaktion/bike.gpx"), layer = "tracks", verbose = FALSE)
+run <- readOGR(paste0(getwd(), "/images/spendenaktion/run.gpx"), layer = "tracks", verbose = FALSE)
+
+## map track
+leaflet(width=2000) %>% 
+  
+  # add gpx tracks
+  addPolylines(data=bike, color = "red", label = "920km Radfahrt; Neuendorf - Reintalangerhütte") %>%
+  addPolylines(data=run, color = "blue", label = "5km Lauf zur Zugspitze") %>%
+
+  addMarkers(lat = 53.9633267, lng = 9.3158384, popup = "Tiefste Stelle Deutschlands", label = "Tiefste Stelle Deutschlands") %>%
+  addMarkers(lat = 47.4210795, lng = 10.975044, popup = "Zugspitze", label = "Zugspitze") %>%
+  
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
 
 
 # Interesse geweckt?
+Ich freue mich über jede Form der Unterstützung und möchte mich jetzt schonmal für dein Interesse bedanken. Falls du noch offene Fragen hast, melde dich gerne bei mir via E-Mail, oder Whatsapp. Für Interessierte würde ich eine Whatsappgruppe erstellen. Dort werde ich Updates von Unterwegs, sowie dem Spendenstand teilen.
+
+Wer noch mehr Informationen über die Schule oder den Verein möchte, kann sich gerne [hier](https://www.mon-devoir.de/) auf der Homepage etwas umschauen.
+
+>  <u>Spendenkonto:</u> <br>
+&ensp;&thinsp;&ensp;&thinsp; Mon Devoir e.V. <br>
+&ensp;&thinsp;&ensp;&thinsp; BIC: GENODE61FR1 <br>
+&ensp;&thinsp;&ensp;&thinsp; IBAN: DE91 6809 0000 0025 3991 02 <br>
+<i>Das Ausstellen einer Spendenbescheinigung ist möglich</i>
