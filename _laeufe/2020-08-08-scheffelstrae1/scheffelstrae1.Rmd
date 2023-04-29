@@ -1,0 +1,82 @@
+---
+title: "1. internationaler Scheffelstraßenmarathon"
+description: |
+  Man nehme ein Rudel weinliebender Marathonläufer, einen heißen Sommertag im August und 4 Runden durch Freiburg. Was dabei rauskommt? Das weiß ich auch nicht, aber witzig wars!
+preview: /header.jpg
+categories: 
+  - '2020'
+  - Marathon
+  - MDM
+date: 2020-08-08
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+>
+<p style="text-align: left;"> 
+<u><b> Infos </u></b><br>
+&ensp;&thinsp;`r fontawesome::fa("circle-info", height = "12px")`&ensp;&thinsp;  43,61km & 712hm <br>
+&ensp;&thinsp;`r fontawesome::fa("clock", height = "12px")` &ensp;&thinsp; 06:26:00h <br>
+&ensp;&thinsp;`r fontawesome::fa("map-pin", height = "12px")`&ensp;&thinsp;  Interlaken, Schweiz <br>
+&ensp;&thinsp;`r fontawesome::fa("calendar-days", height = "12px")`&ensp;&thinsp; 16.02.2020  
+[Link](https://marathon.africa/mdm_2020/mdm_0125/index_html) zum Event <br>
+Ergebnisse: [www.mdm-coureur.de](https://www.mdm-coureur.de/mdm_2018/registration/runners_results_mdm?backlink=https://marathon.africa/mdm_2020/mdm_0125&race=1125)
+
+# (vorläufige) Kurzbeschreibung
+<i>Zitat aus der Ausschreibung:</i>
+
+<b>Le cent vingt-cinquième MDM - Samstag 8. August 2020</b>
+
+Zum kleinen Jubiläum wiederholen wir den Spaß des hundertsten MDM:  Vier schöne Runden Freiburg unter dem Motto "Freiburgs Gärten & Seen" kombiniert. Start- und Ziel ist in Albrechts Garten. Von hier aus ist der Weg in Albrechts gut sortierten Weinkeller nicht weit... Natürlich steht aber wieder der sportliche Wettkampf im Vordergrund. Und diesmal die Turmwertung?   
+
+# Die Route
+<center>
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+tag1 <- readOGR(paste0(getwd(), "/gpx.gpx"), layer = "tracks", verbose = FALSE)
+
+# add gpx tracks
+leaflet() %>%
+  # add gpx tracks
+  addPolylines(data=tag1, color = "red") %>%
+
+  # add special points
+
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+</center>
+
+# Bilder
+
+```{r slider, echo = FALSE}
+library(htmlwidgets)
+library(slickR)
+
+no <- 1:4
+images <- c(paste0(getwd(), "/img", no, ".jpg"))
+
+opts <- settings(
+  dots = TRUE,
+  initialSlide = 0,
+  slidesToShow = 1, 
+  slidesToScroll = 1, 
+  focusOnSelect = TRUE)
+
+
+slickR(obj = images) +
+  
+  opts
+
+```
+
+
