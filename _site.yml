@@ -15,6 +15,15 @@ navbar:
       href: stories.html
     - text: "Spendenaktion"
       href: spendenaktion.html
+    - icon: fas fa-bars
+      menu:
+        - text: "Läufe"
+          href: laeufe.html
+        - icon: fab fa-github
+          href: https://github.com/soeren-schwabbauer/blog
+        - text: "Impressum"
+          href: impressum.html
+          
 
 collections:
   posts: 
@@ -23,6 +32,9 @@ collections:
     categories: true
   stories:
     categories: true
+  laeufe:
+    categories: true
+    
     
 theme: theme.css
 

@@ -1,0 +1,71 @@
+---
+title: "Accra International Marathon"
+description: |
+  Von der Centra University ging es 42,195 Kilometer bis vors Labadi Beach Hotel. Hitze, Verkehr & eine Menge Chaos auf den Straßen. Ein Marathondebut, vor dem man sich nicht verstecken braucht.
+categories: 
+  - '2018'
+  - Marathon
+date: 2018-10-27
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+>
+<p style="text-align: left;"> 
+<u><b> Infos </u></b><br>
+&ensp;&thinsp;`r fontawesome::fa("circle-info", height = "12px")`&ensp;&thinsp;  42,195km & 400hm <br>
+&ensp;&thinsp;`r fontawesome::fa("clock", height = "12px")` &ensp;&thinsp; 4:23:23h <br>
+&ensp;&thinsp;`r fontawesome::fa("map-pin", height = "12px")`&ensp;&thinsp;  Accra, Ghana <br>
+&ensp;&thinsp;`r fontawesome::fa("calendar-days", height = "12px")`&ensp;&thinsp; 27.10.2018  
+
+# (vorläufige) Kurzbeschreibung
+Nach 32km war die Luft raus und die Beine haben gekrampft. Sonst wunderschön😍
+
+# Die Route
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+tag1 <- readOGR(paste0(getwd(), "/gpx.gpx"), layer = "tracks", verbose = FALSE)
+
+# add gpx tracks
+leaflet() %>%
+  # add gpx tracks
+  addPolylines(data=tag1, color = "red") %>%
+
+  # add special points
+
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+
+# Bilder
+
+```{r slider, echo = FALSE}
+library(htmlwidgets)
+library(slickR)
+
+images <- c(paste0(getwd(), "/img1.jpg"),
+            paste0(getwd(), "/img2.jpg"))
+
+
+opts <- settings(
+  dots = TRUE,
+  initialSlide = 0,
+  slidesToShow = 5, 
+  slidesToScroll = 5, 
+  focusOnSelect = TRUE)
+
+
+slickR(obj = images) +
+  
+  opts
+
+```

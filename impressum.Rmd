@@ -1,0 +1,17 @@
+---
+title: "Impressum"
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Informationspflicht laut §5 E-Commerce Gesetz und Offenlegungspflicht laut §25 Mediengesetz
+
+Sören Schwabbauer
+
+E-Mail: [soeren@schwabbauer.de](mailto:soeren@schwabbauer.de)
+
+
+### Ihre Rechte
+
+Ihnen stehen bezüglich Ihrer bei uns gespeicherten Daten grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der oben genannten E-Mail-Adresse oder Ihrer Datenschutzbehörde beschweren.
