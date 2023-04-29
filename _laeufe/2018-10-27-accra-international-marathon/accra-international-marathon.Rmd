@@ -1,11 +1,12 @@
 ---
 title: "Accra International Marathon"
 description: |
-  Von der Centra University ging es 42,195 Kilometer bis vors Labadi Beach Hotel. Hitze, Verkehr & eine Menge Chaos auf den Straßen. Ein Marathondebut, vor dem man sich nicht verstecken braucht.
+  Von der Central University ging es 42,195 Kilometer bis vors Labadi Beach Hotel. Hitze, Verkehr & eine Menge Chaos auf den Straßen. Ein Marathondebut, vor dem man sich nicht verstecken braucht.
+preview: /header.jpg
 categories: 
-  - '2018'
+  - '2019'
   - Marathon
-date: 2018-10-27
+date: 2019-10-27
 output:
   distill::distill_article:
     self_contained: false

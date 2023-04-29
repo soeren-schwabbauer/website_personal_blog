@@ -1,32 +1,49 @@
 [
   {
-    "path": "laeufe/2018-10-28-accra-international-marathon/",
-    "title": "Accra International Marathon",
-    "description": "Von der Centra University ging es 42,195 Kilometer bis vors Labadi Beach Hotel. Hitze, Verkehr & eine Menge Chaos auf den Straßen. Ein Marathondebut, vor dem man sich nicht verstecken braucht.",
+    "path": "laeufe/2020-02-16-marathontogo2/",
+    "title": "1er Marathon du Mont Agou",
+    "description": "War es der Spirit, die Leute, oder doch Gruppenzwang? Egal. Nach dem Läufchen am Sonntag waren die Beine noch fit genug für einen zweiten Marathon. Dieses Mal auf den höchsten Berg Togos",
     "author": [],
-    "date": "2018-10-27",
+    "date": "2020-02-16",
     "categories": [
-      "2018",
-      "Marathon"
+      "2020",
+      "Marathon",
+      "Trail"
     ],
-    "contents": "\r\n\r\nContents\r\n(vorläufige) Kurzbeschreibung\r\nDie Route\r\nBilder\r\n\r\n\r\n\r\n Infos \r\n     42,195km & 400hm \r\n      4:23:23h \r\n     Accra, Ghana \r\n     27.10.2018\r\n\r\n(vorläufige) Kurzbeschreibung\r\nNach 32km war die Luft raus und die Beine haben gekrampft. Sonst wunderschön😍\r\nDie Route\r\n\r\n\r\n\r\nBilder\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2023-04-29T11:21:04+02:00",
+    "contents": "\r\n\r\nContents\r\n(vorläufige) Kurzbeschreibung\r\nDie Route\r\nBilder\r\n\r\n\r\n\r\n Infos \r\n     42,78km & 1084hm \r\n      5:10:00h \r\n     Kpalimé, Togo \r\n     16.02.2020Link zur Veranstaltung \r\nErgebnisse: www.mdm-coureur.de\r\n\r\n(vorläufige) Kurzbeschreibung\r\nwas ist geiler als 1 Trailmarathon am Samstag?\r\n- noch einer am Sonntag 🙌🏽🥶\r\nDie Route\r\n\r\n\r\n\r\nBilder\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "laeufe/2020-02-16-marathontogo2//header.jpg",
+    "last_modified": "2023-04-29T12:19:05+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "laeufe/2020-02-15-marathontogo1/",
+    "title": "4ième Marathon des Papillons",
+    "description": "Nach dem Marathonauftakt 4 Monate zuvor ging es dieses Mal auf die Trails im Togo. Ein Erlebnis, wie es es wohl kein zweites Mal gibt.",
+    "author": [],
+    "date": "2020-02-15",
+    "categories": [
+      "2020",
+      "Marathon",
+      "Trail"
+    ],
+    "contents": "\r\n\r\nContents\r\n(vorläufige) Kurzbeschreibung\r\nDie Route\r\nBilder\r\n\r\n\r\n\r\n Infos \r\n     42,195km & 1260hm \r\n      5:30:00h \r\n     Kpalimé, Togo \r\n     15.02.2020Link zur Veranstaltung \r\nErgebnisse: www.mdm-coureur.de\r\n\r\n(vorläufige) Kurzbeschreibung\r\nwar geil, war steil💪\r\nvorbei an 2 Wasserfällen und wunderschönen Landstrichen\r\nDie Route\r\n\r\n\r\n\r\nBilder\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "laeufe/2020-02-15-marathontogo1//header.jpg",
+    "last_modified": "2023-04-29T12:06:57+02:00",
     "input_file": {}
   },
   {
     "path": "laeufe/2018-10-27-accra-international-marathon/",
     "title": "Accra International Marathon",
-    "description": "Von der Centra University ging es 42,195 Kilometer bis vors Labadi Beach Hotel. Hitze, Verkehr & eine Menge Chaos auf den Straßen. Ein Marathondebut, vor dem man sich nicht verstecken braucht.",
+    "description": "Von der Central University ging es 42,195 Kilometer bis vors Labadi Beach Hotel. Hitze, Verkehr & eine Menge Chaos auf den Straßen. Ein Marathondebut, vor dem man sich nicht verstecken braucht.",
     "author": [],
-    "date": "2018-10-27",
+    "date": "2019-10-27",
     "categories": [
-      "2018",
+      "2019",
       "Marathon"
     ],
     "contents": "\r\n\r\nContents\r\n(vorläufige) Kurzbeschreibung\r\nDie Route\r\nBilder\r\n\r\n\r\n\r\n Infos \r\n     42,195km & 400hm \r\n      4:23:23h \r\n     Accra, Ghana \r\n     27.10.2018\r\n\r\n(vorläufige) Kurzbeschreibung\r\nNach 32km war die Luft raus und die Beine haben gekrampft. Sonst wunderschön😍\r\nDie Route\r\n\r\n\r\n\r\nBilder\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2023-04-29T11:34:30+02:00",
-    "input_file": "accra-international-marathon.knit.md"
+    "preview": "laeufe/2018-10-27-accra-international-marathon//header.jpg",
+    "last_modified": "2023-04-29T12:07:31+02:00",
+    "input_file": {}
   }
 ]

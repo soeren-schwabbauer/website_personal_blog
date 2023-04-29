@@ -1,0 +1,76 @@
+---
+title: "4ième Marathon des Papillons"
+description: |
+  Nach dem Marathonauftakt 4 Monate zuvor ging es dieses Mal auf die Trails im Togo. Ein Erlebnis, wie es es wohl kein zweites Mal gibt.
+preview: /header.jpg
+categories: 
+  - '2020'
+  - Marathon
+  - Trail
+date: 2020-02-15
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+>
+<p style="text-align: left;"> 
+<u><b> Infos </u></b><br>
+&ensp;&thinsp;`r fontawesome::fa("circle-info", height = "12px")`&ensp;&thinsp;  42,195km & 1260hm <br>
+&ensp;&thinsp;`r fontawesome::fa("clock", height = "12px")` &ensp;&thinsp; 5:30:00h <br>
+&ensp;&thinsp;`r fontawesome::fa("map-pin", height = "12px")`&ensp;&thinsp;  Kpalimé, Togo <br>
+&ensp;&thinsp;`r fontawesome::fa("calendar-days", height = "12px")`&ensp;&thinsp; 15.02.2020  
+[Link]( https://marathon.africa/amc_2020/2020-02-15/index_html) zur Veranstaltung <br>
+Ergebnisse: [www.mdm-coureur.de](https://www.mdm-coureur.de/mdm_2020/registration/runners_results?race=23)
+
+# (vorläufige) Kurzbeschreibung
+war geil, war steil💪
+
+vorbei an 2 Wasserfällen und wunderschönen Landstrichen
+
+# Die Route
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+tag1 <- readOGR(paste0(getwd(), "/gpx.gpx"), layer = "tracks", verbose = FALSE)
+
+# add gpx tracks
+leaflet() %>%
+  # add gpx tracks
+  addPolylines(data=tag1, color = "red") %>%
+
+  # add special points
+
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+
+# Bilder
+
+```{r slider, echo = FALSE}
+library(htmlwidgets)
+library(slickR)
+
+no <- 1:7
+images <- c(paste0(getwd(), "/img", no, ".jpg"))
+
+opts <- settings(
+  dots = TRUE,
+  initialSlide = 0,
+  slidesToShow = 2, 
+  slidesToScroll = 1, 
+  focusOnSelect = TRUE)
+
+
+slickR(obj = images) +
+  
+  opts
+
+```
