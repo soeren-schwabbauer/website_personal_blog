@@ -5,13 +5,75 @@ output:
     self_contained: false
     toc: true
 ---
-
+## Eine kurze Übersicht
 
 ```{r , echo=FALSE}
 # load packages for carousel
 library(rprojroot)
 library(slickR)
 ```
+
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+library(sjmisc)
+library(dplyr)
+
+
+folders <- list.files(path = paste0(getwd(), "/_bikepacking"))
+
+paths <- paste0(getwd(), "/_bikepacking/", folders, "/all.gpx")
+
+
+## get gpx track
+angriffderpiefkes <- readOGR(paths[1], layer = "tracks", verbose = FALSE)
+berlinberlin <- readOGR(paths[2], layer = "tracks", verbose = FALSE)
+imwinterinswarme <- readOGR(paths[3], layer = "tracks", verbose = FALSE)
+amsterdam <- readOGR(paths[4], layer = "tracks", verbose = FALSE)
+eskaparten <- readOGR(paths[5], layer = "tracks", verbose = FALSE)
+athen <- readOGR(paths[6], layer = "tracks", verbose = FALSE)
+ruanda <- readOGR(paths[7], layer = "tracks", verbose = FALSE)
+uganda <- readOGR(paths[8], layer = "tracks", verbose = FALSE)
+
+
+## map track
+leaflet(width=2000) %>% 
+  
+  # (1) Piefkes
+  addPolylines(data=angriffderpiefkes, color = "red", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#angriff-der-piefkes"> Angriff der Piefkes </a>') %>% 
+  
+  # (2) Berlin, Berlin
+    addPolylines(data=berlinberlin, color = "orange", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#berlin-berlin-wir-fahren-nach-berlin"> Berlin, Berlin, wir fahren nach Berlin </a>') %>% 
+
+  #(3)
+  addPolylines(data=imwinterinswarme, color = "green", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#im-winter-ins-warme"> Im Winter ins Warme </a>') %>% 
+  
+  #(4)
+  addPolylines(data=amsterdam, color = "blue", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#lets-fiets-to-amsterdam"> Lets fiets to Amsterdam </a>') %>% 
+  
+  #(5)
+  addPolylines(data=eskaparten, color = "purple", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#eskarparten"> Eskaparten </a>') %>% 
+  
+  #(6)
+  addPolylines(data=athen, color = "black", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#eskarparten"> Eskaparten </a>') %>% 
+  
+  #(7)
+  addPolylines(data=ruanda, color = "red", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#https://soeren-schwabbauer.github.io/blog/bikepacking.html#race-around-rwanda"> Race Around Rwanda </a>') %>% 
+  
+  #(8)
+  addPolylines(data=uganda, color = "orange", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#s%C3%BCd-ost-uganda"> Uganda </a>') %>%   
+  
+  
+  
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+
 
 
 ## 2023
