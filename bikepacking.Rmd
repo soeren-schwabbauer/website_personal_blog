@@ -58,7 +58,7 @@ leaflet(width=2000) %>%
   addPolylines(data=eskaparten, color = "purple", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#eskarparten"> Eskaparten </a>') %>% 
   
   #(6)
-  addPolylines(data=athen, color = "black", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#eskarparten"> Eskaparten </a>') %>% 
+  addPolylines(data=athen, color = "black", popup = '<a href = "Human Capital Accumulation by Temporary Migrants While Abroad"> Innsbruck - Athen. Ende der Storyline </a>') %>% 
   
   #(7)
   addPolylines(data=ruanda, color = "red", popup = '<a href = "https://soeren-schwabbauer.github.io/blog/bikepacking.html#https://soeren-schwabbauer.github.io/blog/bikepacking.html#race-around-rwanda"> Race Around Rwanda </a>') %>% 
