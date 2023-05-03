@@ -34,7 +34,7 @@ Das sind $`r sum_finish/60`$ $Jahre$ Schulbildung für Kinder aus sozial schwach
 
 # Mein Ziel & ich
 Für die, die mich nicht kennen: Hey, ich bin Sören, 22 Jahre alt & leidenschaftlicher Ausdauersportler. Nachdem ich im vergangenen Jahr Bergläufe jenseits der 42km bestritten habe, habe ich mittlerweile meine Leidenschaft im Bikepacking gefunden. <br>
-Mein Ziel ist es, am <u>9. Juli </U>, <u>self-supported</u>$^1$ & <u>schnellstmöglich</u> vom tiefsten Punkt Deutschlands zum Höchsten zu gelangen. Anders gesagt: von Neuendorf-Sachsenbande (nördlich von Hamburg) auf die Zugspitze. Die selbstgeplante 922 Kilometer (mit 7.200 Höhenmetern) lange Radstrecke führt mich durch 5 Bundesländer und endet an der Reintalangerhütte im Partnachtal bei Garmisch-Patenkirchen. Von dort trennen mich noch 6 Kilometer Fußmarsch (mit 1.500 Höhenmetern) von Deutschlands höchstem Gipfel.
+Mein Ziel ist es, am <u>9. Juni </U>, <u>self-supported</u>$^1$ & <u>schnellstmöglich</u> vom tiefsten Punkt Deutschlands zum Höchsten zu gelangen. Anders gesagt: von Neuendorf-Sachsenbande (nördlich von Hamburg) auf die Zugspitze. Die selbstgeplante 922 Kilometer (mit 7.200 Höhenmetern) lange Radstrecke führt mich durch 5 Bundesländer und endet an der Reintalangerhütte im Partnachtal bei Garmisch-Patenkirchen. Von dort trennen mich noch 6 Kilometer Fußmarsch (mit 1.500 Höhenmetern) von Deutschlands höchstem Gipfel.
 
 <aside> $^1$ self-supported heißt dabei aus eigenem Antrieb und ohne fremde Hilfe. Alles, was ich zum Erreichen des Ziels benötige, werde ich von Anfang an mitnehmen (also auf die Laufschuhe für den finalen Aufstieg). Unterwegs werde ich mich selbst versorgen. Note: zur eigenen Sicherheit werde ich auf den letzten Laufkilometern begleitet.
 </aside>
