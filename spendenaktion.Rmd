@@ -1,5 +1,5 @@
 ---
-title: "Spendenaktion - 9. Juli"
+title: "Spendenaktion - 9. Juni"
 description: "Ich bin der Überzeugung, dass Bildung Chancen ermöglicht und neue Perspektiven eröffnet. Aus diesem Grund möchte ich mich einer sportlichen Herausforderung stellen und Geld für den Stipendienfond einer togoischen Schule sammeln."
 image: "header.jpg"
 site: distill::distill_website
