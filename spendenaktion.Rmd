@@ -1,6 +1,6 @@
 ---
-title: "Spendenaktion"
-description: "Ich bin der Überzeugung, dass Bildung Chancen ermöglicht und neue Perspektiven ermöglicht. Aus diesem Grund möchte ich mich einer sportlichen Herausforderung stellen und Geld für den Stipendienfond einer togoischen Schule sammeln.  "
+title: "Spendenaktion - 9. Juli"
+description: "Ich bin der Überzeugung, dass Bildung Chancen ermöglicht und neue Perspektiven eröffnet. Aus diesem Grund möchte ich mich einer sportlichen Herausforderung stellen und Geld für den Stipendienfond einer togoischen Schule sammeln."
 image: "header.jpg"
 site: distill::distill_website
 output:
@@ -8,6 +8,7 @@ output:
     self_contained: false
     toc: true
 ---
+
 ## Spendenstand
 ```{r, echo = FALSE}
 library(googlesheets4)
@@ -22,9 +23,9 @@ sum_finish <- sum(df$`Erst bei Erreichen der Zugspitze spende ich ...€`, df$`A
 time <- format(Sys.time(), format="%d. %B, %H:%M Uhr")
 ```
 
-<b> Als Pauschalbetrag wurden bisher $`r sum_pauschalbetrag`$ $Euro$ gespendet
+<b> Bisher wurde $`r sum_pauschalbetrag`$ $Euro$ unabhängig vom Erreichen der Zugspitze gespendet.
 
-Bei einem erfolgreichen Finish kommen insgesamt $`r sum_finish`$ $Euro$ zusammen. 
+Wenn ich es schaffe, vom tiefsten Punkt Deutschlands zum Höchsten zu kommen, werden insgesamt $`r sum_finish`$ $Euro$ gespendet. 
 
 Das sind $`r sum_finish/60`$ $Jahre$ Schulbildung für Kinder aus sozial schwachen Familien, die sonst keinen Zugang zu guter Bildung hätten. </b>
 <div style="text-align: right">  (Stand: `r time`) </i>  </div>
@@ -33,9 +34,9 @@ Das sind $`r sum_finish/60`$ $Jahre$ Schulbildung für Kinder aus sozial schwach
 
 # Mein Ziel & ich
 Für die, die mich nicht kennen: Hey, ich bin Sören, 22 Jahre alt & leidenschaftlicher Ausdauersportler. Nachdem ich im vergangenen Jahr Bergläufe jenseits der 42km bestritten habe, habe ich mittlerweile meine Leidenschaft im Bikepacking gefunden. <br>
-Mein Ziel ist es, aus eigenem Antrieb, self-supported$^1$ & schnellstmöglich vom tiefsten Punkt Deutschlands zum Höchsten zu gelangen. Anders gesagt: von Neuendorf-Sachsenbande (nördlich von Hamburg) auf die Zugspitze. Die gut 900 Kilometer (mit 7.200 Höhenmetern) lange Radstrecke führt mich durch 5 Bundesländer und endet an der Reintalangerhütte im Partnachtal bei Garmisch-Patenkirchen. Von dort trennen mich noch 6 Kilometer Fußmarsch (mit 1.500 Höhenmetern) von Deutschlands höchstem Gipfel.
+Mein Ziel ist es, am <u>9. Juli </U>, <u>self-supported</u>$^1$ & <u>schnellstmöglich</u> vom tiefsten Punkt Deutschlands zum Höchsten zu gelangen. Anders gesagt: von Neuendorf-Sachsenbande (nördlich von Hamburg) auf die Zugspitze. Die selbstgeplante 922 Kilometer (mit 7.200 Höhenmetern) lange Radstrecke führt mich durch 5 Bundesländer und endet an der Reintalangerhütte im Partnachtal bei Garmisch-Patenkirchen. Von dort trennen mich noch 6 Kilometer Fußmarsch (mit 1.500 Höhenmetern) von Deutschlands höchstem Gipfel.
 
-<aside> $^1$ self-supported heißt dabei, ohne fremde Hilfe. Alles, was ich zum Erreichen des Ziels benötige, werde ich von Anfang an mitnehmen (also auf die Laufschuhe für den finalen Aufstieg). Unterwegs werde ich mich selbst versorgen. 
+<aside> $^1$ self-supported heißt dabei aus eigenem Antrieb und ohne fremde Hilfe. Alles, was ich zum Erreichen des Ziels benötige, werde ich von Anfang an mitnehmen (also auf die Laufschuhe für den finalen Aufstieg). Unterwegs werde ich mich selbst versorgen. Note: zur eigenen Sicherheit werde ich auf den letzten Laufkilometern begleitet.
 </aside>
 
 ![](images/spendenaktion/img_me.jpg)
@@ -75,9 +76,9 @@ leaflet(width=2000) %>%
 ```
 
 # Interesse geweckt?
-Ich freue mich über jede Form der Unterstützung und möchte mich jetzt schonmal für dein Interesse bedanken. Falls du noch offene Fragen hast, melde dich gerne bei mir via [E-Mail](mailto:soeren@schwabbauer.de). Für interessierte Spender würde ich eine Whatsapp Gruppe erstellen. Dort werde ich Updates von Unterwegs, sowie dem Spendenstand teilen.
+Ich freue mich über jede Form der Unterstützung und möchte mich jetzt schonmal für dein Interesse bedanken. Falls du noch offene Fragen hast, melde dich gerne bei mir via [E-Mail](mailto:soeren@schwabbauer.de). Für interessierte Spender würde ich eine Whatsapp Gruppe erstellen. Dort werde ich Updates von Unterwegs, sowie dem Spendenstand teilen <i>(Bitte Kontaktinformation im Spendenformular angeben)</i>.
 
-Wer noch mehr Informationen über die Schule oder den Verein möchte, kann sich gerne [hier](https://www.mon-devoir.de/) auf der Homepage etwas umschauen.
+Wer noch mehr Informationen über den Togo, die Schule oder den Verein möchte, kann [hier](https://soeren-schwabbauer.github.io/blog/spendenaktion.html#weitere-informationen-%C3%BCber-das-land-die-schule) noch etwas weiterlesen oder sich gerne [hier](https://www.mon-devoir.de/) auf der Homepage der Schule etwas umschauen.
 
 
 >  <u>Spendenkonto:</u> <br>
