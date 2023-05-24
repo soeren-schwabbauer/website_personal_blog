@@ -1,0 +1,51 @@
+---
+title: "Sill-Inn Marathon"
+description: |
+  44 Kilometer wie die Wahnsinnigen über die Sill-Inn Schleife. Dabei lief die erste Runde bedeutend besser, als die Vierte.
+preview: /header.jpg
+categories: 
+  - '2021'
+  - 'Marathon'
+date: 2021-02-20
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+>
+<p style="text-align: left;"> 
+<u><b> Infos </u></b><br>
+&ensp;&thinsp;`r fontawesome::fa("circle-info", height = "12px")`&ensp;&thinsp;  44 Kilometer <br>
+&ensp;&thinsp;`r fontawesome::fa("clock", height = "12px")` &ensp;&thinsp; 03:45:00h <br>
+&ensp;&thinsp;`r fontawesome::fa("map-pin", height = "12px")`&ensp;&thinsp;  Innsbruck, Österreich <br>
+&ensp;&thinsp;`r fontawesome::fa("calendar-days", height = "12px")`&ensp;&thinsp; 20.02.2021  <br>
+Ergebnisse: [Strava](https://www.strava.com/activities/4816770949)
+
+# (vorläufige) Kurzbeschreibung
+Es gab Brezeln vom Hofer und zwei Freunde, die wissen wollten, ob die Sill-Inn Schleife irgendwann langweilig wird. Antwort: jup, im Grunde schon nach 5 Kilometern.
+
+# Die Route
+<center>
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+tag1 <- readOGR(paste0(getwd(), "/gpx.gpx"), layer = "tracks", verbose = FALSE)
+
+# add gpx tracks
+leaflet() %>%
+  # add gpx tracks
+  addPolylines(data=tag1, color = "red") %>%
+
+  # add special points
+
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+</center>

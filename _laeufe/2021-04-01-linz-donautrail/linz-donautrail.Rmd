@@ -1,0 +1,58 @@
+---
+title: "Linz 100 Donautrail"
+description: |
+  Zum 2. Mal auf den 100 Kilometern unterwegs. Dieses Mal self-supported in über die 'Berge' in Oberösterreich.
+preview: /header.jpg
+categories: 
+  - '2021'
+  - 'Ultramarathon'
+date: 2021-04-01
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+>
+<p style="text-align: left;"> 
+<u><b> Infos </u></b><br>
+&ensp;&thinsp;`r fontawesome::fa("circle-info", height = "12px")`&ensp;&thinsp;  101 Kilometer &  2000 hm <br>
+&ensp;&thinsp;`r fontawesome::fa("clock", height = "12px")` &ensp;&thinsp; 10:46:00h <br>
+&ensp;&thinsp;`r fontawesome::fa("map-pin", height = "12px")`&ensp;&thinsp;  Linz, Österreich <br>
+&ensp;&thinsp;`r fontawesome::fa("calendar-days", height = "12px")`&ensp;&thinsp; 01.04.2021  [Link zu Webseite](https://donautrail.at/) <br>
+Ergebnisse: [Strava](https://www.strava.com/activities/5049543596)
+
+# (vorläufige) Kurzbeschreibung
+
+Es ist beeindruckend, was manch einer unter diesen Umständen schafft auf die Beine zu stellen.
+Riesigen Dank an Christoph Hain, der dafür gesorgt hat, diesen Lauf zu einem tollen Erlebnis zu machen!!
+
+Brutto: 10:46h
+Lief klasse, bis die Hitze und der Bauch 15km vor dem Ziel doch eine Tempodrosselung herbeizwangen🥴
+Zusammengefasst: https://www.instagram.com/p/COlguaPHEg4/?utm_medium=copy_link
+
+
+# Die Route
+<center>
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+tag1 <- readOGR(paste0(getwd(), "/gpx.gpx"), layer = "tracks", verbose = FALSE)
+
+# add gpx tracks
+leaflet() %>%
+  # add gpx tracks
+  addPolylines(data=tag1, color = "red") %>%
+
+  # add special points
+
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+</center>

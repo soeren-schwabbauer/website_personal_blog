@@ -1,0 +1,52 @@
+---
+title: "der Traunsee"
+description: |
+  Auf 39 abwechslungsreichen Kilometern um den Traunsee. Von Schneefeldern über einer Felswand, bis hin zu Kilometern auf dem Radweg.
+preview: /header.jpg
+categories: 
+  - '2021'
+  - 'Routenempfehlung'
+date: 2020-08-08
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+>
+<p style="text-align: left;"> 
+<u><b> Infos </u></b><br>
+&ensp;&thinsp;`r fontawesome::fa("circle-info", height = "12px")`&ensp;&thinsp;  39 Kilometer <br>
+&ensp;&thinsp;`r fontawesome::fa("clock", height = "12px")` &ensp;&thinsp; 04:47:00h <br>
+&ensp;&thinsp;`r fontawesome::fa("map-pin", height = "12px")`&ensp;&thinsp;  Gmunden, Österreich <br>
+&ensp;&thinsp;`r fontawesome::fa("calendar-days", height = "12px")`&ensp;&thinsp; 28.03.2021  <br>
+Ergebnisse: [Strava](https://www.strava.com/activities/5026061171)
+
+# (vorläufige) Kurzbeschreibung
+... wenn man den Gardasee auf Wish bestellt
+kann man das eigentlich noch deutsch nennen, was man hier spricht?
+
+# Die Route
+<center>
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+tag1 <- readOGR(paste0(getwd(), "/gpx.gpx"), layer = "tracks", verbose = FALSE)
+
+# add gpx tracks
+leaflet() %>%
+  # add gpx tracks
+  addPolylines(data=tag1, color = "red") %>%
+
+  # add special points
+
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+</center>

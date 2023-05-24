@@ -1,0 +1,52 @@
+---
+title: "2020 - Spendenlauf - `die längste Nacht des Jahres`"
+description: |
+  Ein verrückter Gedanke und eine häufig geteilte What'sApp Nachricht. So kamen in der längsten Nacht des Jahres 55 Kilometer und sage und schreibe knappe 3000 Euro für den guten Zweck zusammen
+preview: /header.jpg
+categories: 
+  - '2020'
+  - 'Spendenaktion'
+date: 2020-08-08
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+>
+<p style="text-align: left;"> 
+<u><b> Infos </u></b><br>
+&ensp;&thinsp;`r fontawesome::fa("circle-info", height = "12px")`&ensp;&thinsp; 55 Kilometer <br>
+&ensp;&thinsp;`r fontawesome::fa("clock", height = "12px")` &ensp;&thinsp; 05:55:00h <br>
+&ensp;&thinsp;`r fontawesome::fa("map-pin", height = "12px")`&ensp;&thinsp; Innsbruck, Österreich <br>
+&ensp;&thinsp;`r fontawesome::fa("calendar-days", height = "12px")`&ensp;&thinsp; 
+Ergebnisse: [Strava](https://www.strava.com/activities/4498953021)
+
+# (vorläufige) Kurzbeschreibung
+Warum eigentlich immer nur wie ein Wahnsinniger alleine Kilometer schrubben, wenn man auch mal was sinnvolles damit anstellen kann? Das war der Gedanke dahinter, und so entschloss ich mich meine What'sApp Kontaktliste durchzugehen und für ein [Schulprojekt im Togo](https://www.mon-devoir.de/) zu werben. Mit 30€ kann dort ein Kind ein Halbes Jahr zur Schule gehen. Ein Betrag, der hier niemandem eine Zacke aus der Krone bricht und südlich des Äquators viel Nutzen stiften kann. DIe Idee: ich renne auf einer 5 Kilometerrunde in der längsten Nacht des Jahres von Sonnenunter-, bis Sonnenaufgang im Kreis und jeder sagt, wie viel er bereit ist, pro gelaufener Runde zu spenden. Dabei kamen sagenhafte 3000€ zusammen.
+
+# Die Route
+<center>
+```{r projects, echo=FALSE}
+library(leaflet)
+library(sp)
+library(sf)
+library(rgdal)
+library(rprojroot)
+
+## get gpx track
+tag1 <- readOGR(paste0(getwd(), "/gpx.gpx"), layer = "tracks", verbose = FALSE)
+
+# add gpx tracks
+leaflet() %>%
+  # add gpx tracks
+  addPolylines(data=tag1, color = "red") %>%
+
+  # add special points
+
+  addTiles() # Add default OpenStreetMap map tiles
+
+# mehr infos: https://rstudio-pubs-static.s3.amazonaws.com/328775_2c54adb6ac734563b88c14bce515b012.html
+
+```
+</center>
+
