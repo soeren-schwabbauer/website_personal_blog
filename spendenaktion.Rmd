@@ -93,7 +93,7 @@ Wer noch mehr Informationen über den Togo, die Schule oder den Verein möchte, 
 &ensp;&thinsp;&ensp;&thinsp; Verwendungszweck: Zugspitze <br>
 
 >  <u>Spendenkonto (PayPal):</u> <br>
-&ensp;&thinsp;&ensp;&thinsp; Es ist auch möglich via [PayPal](https://www.paypal.com/donate?token=hRK4BQ7wYxis8N4qtjdBIOMPqdx-mSNnQ1SM192EfKBVI0gIx-v44dApP6Ij4_nNU-sP24snox4pyxpt) zu spenden.
+&ensp;&thinsp;&ensp;&thinsp; Es ist auch möglich via [PayPal](https://www.paypal.com/donate/?hosted_button_id=UH7J888CBJ2JE&source=qr) zu spenden.
 
 >  <u>Spendenbescheinigung:</u> <br>
 &ensp;&thinsp;&ensp;&thinsp; Das Ausstellen einer Spendenbescheinigung ist möglich. Hierfür bitte eine E-Mail-Adresse im <b>[Spendenformular](https://soeren-schwabbauer.github.io/blog/spendenaktion.html#spendenformular)</b> angeben.
