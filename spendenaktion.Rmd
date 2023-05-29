@@ -27,7 +27,7 @@ time <- format(Sys.time(), format="%d. %B, %H:%M Uhr")
 
 Wenn ich es schaffe, vom tiefsten Punkt Deutschlands zum Höchsten zu kommen, werden insgesamt $`r sum_finish`$ $Euro$ gespendet. 
 
-Das sind $`r sum_finish/60`$ $Jahre$ Schulbildung für Kinder aus sozial schwachen Familien, die sonst keinen Zugang zu guter Bildung hätten. </b>
+Das sind $`r round(sum_finish/60,2)`$ $Jahre$ Schulbildung für Kinder aus sozial schwachen Familien, die sonst keinen Zugang zu guter Bildung hätten. </b>
 <div style="text-align: right">  (Stand: `r time`) </i>  </div>
 <br>
 ![](images/spendenaktion/img1.jpg)
