@@ -1,6 +1,6 @@
 ### Link to page:
 https://soeren-schwabbauer.github.io/blog/
-
+(NOTE: da kein GitHub premium mehr, leider nicht mehr online)
 
 ### to create a new category & a new post
 - distill::create_post("Eskaparten", collection = "bikepacking", date = "2022-06-25")
